@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7691F312-072F-41DF-87E6-0B4141493A89}" SchemaVersion="89">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{7691F312-072F-41DF-87E6-0B4141493A89}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="PyuNumber" ID="{40834A75-AE01-4BAD-BD25-F729BFB5FFAE}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="20"/>
+						<Property Name="Max" Type="Real64" Value="200"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
