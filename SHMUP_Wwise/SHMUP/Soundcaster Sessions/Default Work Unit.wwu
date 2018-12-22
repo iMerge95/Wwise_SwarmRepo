@@ -17,11 +17,15 @@
 							<ObjectRef Name="Play_Shots" ID="{2C5F4DB8-18FE-4AE9-A9C7-5DDCEB5CE710}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
 							<Position X="2" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Death" ID="{84B6EAC0-6D9E-4894-B9A7-5D5E16C7FE9F}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
+							<Position X="3" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="PyuNumber" ID="{40834A75-AE01-4BAD-BD25-F729BFB5FFAE}"/>
-							<Value>23.8915318744053</Value>
+							<Value>20</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

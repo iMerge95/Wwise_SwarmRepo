@@ -14,7 +14,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-1</Value>
+								<Value>-3</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -52,7 +52,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Shot_Drop_3" ID="{BB2C2758-39E7-41B9-8D18-46FAA4405847}" ShortID="804459026">
+								<Sound Name="Shot_Drop_01" ID="{1D0FEF96-66E1-4C72-AB85-F5CEA8E81824}" ShortID="344864610">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -62,16 +62,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Drop_3" ID="{4D26EF12-41CC-4AD2-9F71-592A4615C166}" ShortID="974832734">
+										<AudioFileSource Name="Shot_Drop_01" ID="{59EEF626-0583-4A46-B4D7-B5B4A14F2151}" ShortID="23718123">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Drop_3.wav</AudioFile>
+											<AudioFile>Shot_Drop_01.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Drop_3" ID="{4D26EF12-41CC-4AD2-9F71-592A4615C166}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Drop_01" ID="{59EEF626-0583-4A46-B4D7-B5B4A14F2151}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Drop_4" ID="{290D76FC-053E-4BF3-8FED-55CB753FDB40}" ShortID="754989674">
+								<Sound Name="Shot_Drop_02" ID="{A99C20C8-5418-443A-9CF9-B97AE072B418}" ShortID="661440663">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -81,16 +81,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Drop_4" ID="{A6994AF1-2F07-4AB2-A81E-C7A6E809A57B}" ShortID="626629245">
+										<AudioFileSource Name="Shot_Drop_02" ID="{6AEB8DE3-31DE-4A35-B93C-7345D2FF22B3}" ShortID="364253741">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Drop_4.wav</AudioFile>
+											<AudioFile>Shot_Drop_02.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Drop_4" ID="{A6994AF1-2F07-4AB2-A81E-C7A6E809A57B}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Drop_02" ID="{6AEB8DE3-31DE-4A35-B93C-7345D2FF22B3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Drop_5" ID="{92851D3E-AFD3-4CAF-9070-7C813C96200A}" ShortID="368053187">
+								<Sound Name="Shot_Drop_03" ID="{0EAE071E-5CE1-4007-A8C3-315B04037F83}" ShortID="1034646543">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -100,16 +100,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Drop_5" ID="{FE27D41F-402C-4DB1-AEA2-B3574F1AB006}" ShortID="327780098">
+										<AudioFileSource Name="Shot_Drop_03" ID="{82A1858B-45E2-4B3F-ABA6-5837E21BE74B}" ShortID="731146243">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Drop_5.wav</AudioFile>
+											<AudioFile>Shot_Drop_03.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Drop_5" ID="{FE27D41F-402C-4DB1-AEA2-B3574F1AB006}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Drop_03" ID="{82A1858B-45E2-4B3F-ABA6-5837E21BE74B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Drop_6" ID="{8112748C-C288-4A41-B3ED-50BEF6C83E6B}" ShortID="47072876">
+								<Sound Name="Shot_Drop_04" ID="{52E9C5E7-7D10-4F86-A7D6-400CBBE7FF7F}" ShortID="1054319865">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -119,16 +119,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Drop_6" ID="{6A73BEEF-0DE7-42DC-8E1B-66F5F271122B}" ShortID="71074522">
+										<AudioFileSource Name="Shot_Drop_04" ID="{55AD8AC7-CC01-425B-974A-1497F67FC17F}" ShortID="90020239">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Drop_6.wav</AudioFile>
+											<AudioFile>Shot_Drop_04.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Drop_6" ID="{6A73BEEF-0DE7-42DC-8E1B-66F5F271122B}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Drop_04" ID="{55AD8AC7-CC01-425B-974A-1497F67FC17F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Drop_7" ID="{471176EC-05BD-4AF7-A150-F7C9B5DE0A7F}" ShortID="764596673">
+								<Sound Name="Shot_Drop_05" ID="{2989BE8D-4121-4A2C-A1E7-927D413E5B06}" ShortID="685014318">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -138,16 +138,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Drop_7" ID="{3BA35424-6C58-452C-93EE-ECC5EA0E6E40}" ShortID="676939592">
+										<AudioFileSource Name="Shot_Drop_05" ID="{7A32F0D6-1CA5-4F02-80AB-06835F8A02CA}" ShortID="856376613">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Drop_7.wav</AudioFile>
+											<AudioFile>Shot_Drop_05.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Drop_7" ID="{3BA35424-6C58-452C-93EE-ECC5EA0E6E40}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Drop_05" ID="{7A32F0D6-1CA5-4F02-80AB-06835F8A02CA}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Drop_1" ID="{8E571D97-1AC6-4AC5-9AED-FBAC87F63F6F}" ShortID="192872672">
+								<Sound Name="Shot_Drop_06" ID="{1CF275A8-0C41-4A1D-99E2-6293D80197A8}" ShortID="102423812">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -157,16 +157,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Drop_1" ID="{40A33894-D9B8-4746-8038-5B15F49442F1}" ShortID="854428154">
+										<AudioFileSource Name="Shot_Drop_06" ID="{3459DEDC-025E-49B0-B5AD-3E67871CF3EB}" ShortID="244548495">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Drop_1.wav</AudioFile>
+											<AudioFile>Shot_Drop_06.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Drop_1" ID="{40A33894-D9B8-4746-8038-5B15F49442F1}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Drop_06" ID="{3459DEDC-025E-49B0-B5AD-3E67871CF3EB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Drop_2" ID="{404D6358-B167-4EE3-8F17-DD9432D9AB1C}" ShortID="892581756">
+								<Sound Name="Shot_Drop_07" ID="{006FD2E2-8F5A-4B5B-BFCE-9644136D1251}" ShortID="534525372">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -176,16 +176,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Drop_2" ID="{4C6071EE-04F5-4897-9501-08FF0997B35E}" ShortID="290234121">
+										<AudioFileSource Name="Shot_Drop_07" ID="{DAA926D1-D037-4C0B-8A12-1A1437BC03E0}" ShortID="628022234">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Drop_2.wav</AudioFile>
+											<AudioFile>Shot_Drop_07.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Drop_2" ID="{4C6071EE-04F5-4897-9501-08FF0997B35E}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Drop_07" ID="{DAA926D1-D037-4C0B-8A12-1A1437BC03E0}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Drop_8" ID="{E8A2C2C9-9D5D-4D5F-8DE7-C6890D349343}" ShortID="756895585">
+								<Sound Name="Shot_Drop_08" ID="{9C46548A-28E8-4B52-95B6-C5C03069090A}" ShortID="974553968">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -195,13 +195,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Drop_8" ID="{CBEA7B82-2604-4B86-AF99-EC54756592FB}" ShortID="747443390">
+										<AudioFileSource Name="Shot_Drop_08" ID="{697D2CD0-598A-43E6-90ED-8FAEC8799DE9}" ShortID="383731950">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Drop_8.wav</AudioFile>
+											<AudioFile>Shot_Drop_08.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Drop_8" ID="{CBEA7B82-2604-4B86-AF99-EC54756592FB}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Drop_08" ID="{697D2CD0-598A-43E6-90ED-8FAEC8799DE9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -231,7 +231,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Shot_Water_1" ID="{AC2243A2-1DAA-4797-967C-0B1FC1D082CA}" ShortID="820854350">
+								<Sound Name="Shot_Water_01" ID="{CC21A997-856F-44C1-B60C-1A49B26613B9}" ShortID="119457188">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -241,16 +241,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Water_1" ID="{8C26F079-A1AF-4259-80FE-2F1A119E5DC6}" ShortID="258372542">
+										<AudioFileSource Name="Shot_Water_01" ID="{DBB3AB6A-A158-4CEF-B3D9-5F0A7D295CFC}" ShortID="608375069">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Water_1.wav</AudioFile>
+											<AudioFile>Shot_Water_01.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Water_1" ID="{8C26F079-A1AF-4259-80FE-2F1A119E5DC6}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Water_01" ID="{DBB3AB6A-A158-4CEF-B3D9-5F0A7D295CFC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Water_8" ID="{1A1CFE31-07EB-406D-BF0D-49F9C572CBA1}" ShortID="596550146">
+								<Sound Name="Shot_Water_02" ID="{A3DC61A4-2AA5-4909-AB1A-1B6196B34A02}" ShortID="181370090">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -260,16 +260,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Water_8" ID="{E9AE7F06-7D4B-4A29-A315-3F278D1F7E27}" ShortID="866779702">
+										<AudioFileSource Name="Shot_Water_02" ID="{1176081D-4710-485A-933C-63D1F540A34E}" ShortID="253266080">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Water_8.wav</AudioFile>
+											<AudioFile>Shot_Water_02.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Water_8" ID="{E9AE7F06-7D4B-4A29-A315-3F278D1F7E27}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Water_02" ID="{1176081D-4710-485A-933C-63D1F540A34E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Water_7" ID="{95C9725B-809C-436B-8387-446DE32190AE}" ShortID="305903446">
+								<Sound Name="Shot_Water_03" ID="{5ACFBD01-1A20-445D-8417-6B7701E82F90}" ShortID="462997563">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -279,16 +279,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Water_7" ID="{28E31D99-0A87-4CD7-8075-2B0656625929}" ShortID="725843751">
+										<AudioFileSource Name="Shot_Water_03" ID="{BFA2B6A4-C89F-46F8-A866-4894E62EA752}" ShortID="52560143">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Water_7.wav</AudioFile>
+											<AudioFile>Shot_Water_03.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Water_7" ID="{28E31D99-0A87-4CD7-8075-2B0656625929}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Water_03" ID="{BFA2B6A4-C89F-46F8-A866-4894E62EA752}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Water_2" ID="{F83CE3E8-9E99-48E4-9EE1-5BC63132D25E}" ShortID="234830589">
+								<Sound Name="Shot_Water_04" ID="{7D1C8DDF-5660-4F8A-9F0B-699C7BFCA36C}" ShortID="418183139">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -298,16 +298,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Water_2" ID="{11A3ACDB-58FC-4EA1-8F45-A3E8B706B6FD}" ShortID="549481154">
+										<AudioFileSource Name="Shot_Water_04" ID="{0D55D716-CB2B-4133-991C-38937152FD6B}" ShortID="752994685">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Water_2.wav</AudioFile>
+											<AudioFile>Shot_Water_04.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Water_2" ID="{11A3ACDB-58FC-4EA1-8F45-A3E8B706B6FD}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Water_04" ID="{0D55D716-CB2B-4133-991C-38937152FD6B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Water_6" ID="{294E6C53-B56B-4F12-B519-F3050ABB5FAC}" ShortID="1011122190">
+								<Sound Name="Shot_Water_05" ID="{51910A7C-0305-4B91-A2E9-35D727A112DD}" ShortID="272600586">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -317,16 +317,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Water_6" ID="{062F6AE2-D168-4634-A05A-781E0C12E2AE}" ShortID="359734570">
+										<AudioFileSource Name="Shot_Water_05" ID="{E1A03E60-70EE-4CBF-99E2-5045043A88CA}" ShortID="458283295">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Water_6.wav</AudioFile>
+											<AudioFile>Shot_Water_05.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Water_6" ID="{062F6AE2-D168-4634-A05A-781E0C12E2AE}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Water_05" ID="{E1A03E60-70EE-4CBF-99E2-5045043A88CA}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Water_3" ID="{C31B6038-05F6-4A51-BEDE-E82BF21ACF99}" ShortID="297030800">
+								<Sound Name="Shot_Water_06" ID="{3C48ACFB-C0C0-4795-91E5-75EF22C7DBFD}" ShortID="606299455">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -336,16 +336,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Water_3" ID="{D6B7C574-A4E3-49E5-B6BA-DD23D91C77F7}" ShortID="244034840">
+										<AudioFileSource Name="Shot_Water_06" ID="{27E26500-60E9-4BD0-AF0F-A1C099205969}" ShortID="808792766">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Water_3.wav</AudioFile>
+											<AudioFile>Shot_Water_06.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Water_3" ID="{D6B7C574-A4E3-49E5-B6BA-DD23D91C77F7}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Water_06" ID="{27E26500-60E9-4BD0-AF0F-A1C099205969}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Water_5" ID="{C5FB984B-1A11-4784-97E4-61AB1F96273B}" ShortID="729707630">
+								<Sound Name="Shot_Water_07" ID="{93A95E01-C442-47DC-8A61-A3027DCB0775}" ShortID="416269850">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -355,16 +355,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Water_5" ID="{487F52FC-8E04-4975-ADC0-930B5D729D3C}" ShortID="146998876">
+										<AudioFileSource Name="Shot_Water_07" ID="{F7AE5B8C-C331-4925-A62A-5C5FE9C6FE99}" ShortID="903324977">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Water_5.wav</AudioFile>
+											<AudioFile>Shot_Water_07.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Water_5" ID="{487F52FC-8E04-4975-ADC0-930B5D729D3C}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Water_07" ID="{F7AE5B8C-C331-4925-A62A-5C5FE9C6FE99}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Water_4" ID="{ADCEE892-C31E-4C5B-9943-C1EBC25240A3}" ShortID="226519028">
+								<Sound Name="Shot_Water_08" ID="{E2BBE6BE-507B-49F4-B323-99F5636B9AAB}" ShortID="939383949">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -374,13 +374,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Water_4" ID="{05D8BE91-3DD3-47AF-89C2-661711B48B35}" ShortID="257628064">
+										<AudioFileSource Name="Shot_Water_08" ID="{1CC2E589-ACA9-46A6-9D29-4BDBA40B39CB}" ShortID="497442396">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Water_4.wav</AudioFile>
+											<AudioFile>Shot_Water_08.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Water_4" ID="{05D8BE91-3DD3-47AF-89C2-661711B48B35}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Water_08" ID="{1CC2E589-ACA9-46A6-9D29-4BDBA40B39CB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -410,7 +410,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Shot_Bow_5" ID="{9974C7F6-5BD5-42BC-A91D-51433ED0CC9E}" ShortID="610805280">
+								<Sound Name="Shot_Bow_01" ID="{A198AFAE-7800-40BF-97B8-4B28A3CD3002}" ShortID="172285803">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -420,16 +420,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Bow_5" ID="{652FE56F-2CAB-4BF0-8FC9-9950B6DB2DCA}" ShortID="469242409">
+										<AudioFileSource Name="Shot_Bow_01" ID="{3A399DAF-80D3-4373-8E95-A296A6173985}" ShortID="336564444">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Bow_5.wav</AudioFile>
+											<AudioFile>Bow\Shot_Bow_01.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Bow_5" ID="{652FE56F-2CAB-4BF0-8FC9-9950B6DB2DCA}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Bow_01" ID="{3A399DAF-80D3-4373-8E95-A296A6173985}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Bow_6" ID="{6E091DCB-A482-4F44-A8A5-6220D60DB4EB}" ShortID="38163393">
+								<Sound Name="Shot_Bow_02" ID="{5422FA30-F11E-4325-A0FD-38097A162243}" ShortID="858869708">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -439,16 +439,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Bow_6" ID="{CF5E7950-6B25-4EC7-8B42-43AB6ED82B14}" ShortID="781799212">
+										<AudioFileSource Name="Shot_Bow_02" ID="{FC4724C4-B707-431B-85B5-EB6D51E892B9}" ShortID="1024678382">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Bow_6.wav</AudioFile>
+											<AudioFile>Bow\Shot_Bow_02.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Bow_6" ID="{CF5E7950-6B25-4EC7-8B42-43AB6ED82B14}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Bow_02" ID="{FC4724C4-B707-431B-85B5-EB6D51E892B9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Bow_7" ID="{8E362194-A2B5-440B-B817-F4F6A2982344}" ShortID="563804752">
+								<Sound Name="Shot_Bow_06" ID="{9965320E-C195-42D3-BEBC-AA71FE8EBDE5}" ShortID="844969213">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -458,16 +458,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Bow_7" ID="{70A324CC-B9B5-40BB-A25B-8E494A9DB33B}" ShortID="480564895">
+										<AudioFileSource Name="Shot_Bow_06" ID="{08068359-D816-45C1-9F57-35E0CC374DD4}" ShortID="230960577">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Bow_7.wav</AudioFile>
+											<AudioFile>Bow\Shot_Bow_06.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Bow_7" ID="{70A324CC-B9B5-40BB-A25B-8E494A9DB33B}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Bow_06" ID="{08068359-D816-45C1-9F57-35E0CC374DD4}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Bow_8" ID="{6349387A-29CD-429F-9F4E-C3DCFE1EAFAE}" ShortID="954083544">
+								<Sound Name="Shot_Bow_07" ID="{1D9BABF5-F938-4C6A-A2D4-95433886E320}" ShortID="864578270">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -477,16 +477,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Bow_8" ID="{8C414945-D411-442B-A094-07992C569995}" ShortID="1066645175">
+										<AudioFileSource Name="Shot_Bow_07" ID="{9715495B-8C7C-4B52-88AD-05B82659D075}" ShortID="706712330">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Bow_8.wav</AudioFile>
+											<AudioFile>Bow\Shot_Bow_07.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Bow_8" ID="{8C414945-D411-442B-A094-07992C569995}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Bow_07" ID="{9715495B-8C7C-4B52-88AD-05B82659D075}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Bow_1" ID="{8D94182B-1ABB-4F21-8058-0A6F9020B0F5}" ShortID="650340984">
+								<Sound Name="Shot_Bow_04" ID="{43704F21-A40E-4F83-9509-6DB2925F221D}" ShortID="491425837">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -496,16 +496,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Bow_1" ID="{DF474261-A0F5-4017-857B-368545587C10}" ShortID="353381999">
+										<AudioFileSource Name="Shot_Bow_04" ID="{3BA82A32-FB93-4543-812D-F5D958967563}" ShortID="967551366">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Bow_1.wav</AudioFile>
+											<AudioFile>Bow\Shot_Bow_04.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Bow_1" ID="{DF474261-A0F5-4017-857B-368545587C10}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Bow_04" ID="{3BA82A32-FB93-4543-812D-F5D958967563}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Bow_3" ID="{24D830BB-507F-4107-8DF3-9475F50A02C8}" ShortID="184637348">
+								<Sound Name="Shot_Bow_08" ID="{8CE91F43-8F87-4994-A7E1-7D79C2C425A5}" ShortID="389179610">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -515,16 +515,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Bow_3" ID="{218D0402-C579-4383-A2D5-A344F956BA26}" ShortID="104690411">
+										<AudioFileSource Name="Shot_Bow_08" ID="{8BB7D70B-AAB1-41BF-A762-37DE03CF1215}" ShortID="937063638">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Bow_3.wav</AudioFile>
+											<AudioFile>Bow\Shot_Bow_08.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Bow_3" ID="{218D0402-C579-4383-A2D5-A344F956BA26}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Bow_08" ID="{8BB7D70B-AAB1-41BF-A762-37DE03CF1215}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Bow_2" ID="{6C6524BE-A564-424E-9C08-2CA4C521290E}" ShortID="615000282">
+								<Sound Name="Shot_Bow_05" ID="{95B8594C-ED38-47ED-BE4F-37816AA7B525}" ShortID="72958319">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -534,16 +534,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Bow_2" ID="{267A787E-CE9A-404A-9291-9125E7EF1D70}" ShortID="478677072">
+										<AudioFileSource Name="Shot_Bow_05" ID="{F050F2A5-0C9C-4E71-8B17-E7C89F948BC1}" ShortID="661280703">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Bow_2.wav</AudioFile>
+											<AudioFile>Bow\Shot_Bow_05.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Bow_2" ID="{267A787E-CE9A-404A-9291-9125E7EF1D70}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Bow_05" ID="{F050F2A5-0C9C-4E71-8B17-E7C89F948BC1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Shot_Bow_4" ID="{BDB496A7-F8B7-4EE7-9BA5-51B419FD4CA6}" ShortID="1071825654">
+								<Sound Name="Shot_Bow_03" ID="{31A500BB-6A42-4C22-9B23-1721E0F3FD5A}" ShortID="350451150">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -553,13 +553,177 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shot_Bow_4" ID="{57DBC386-7AD3-49DC-88AE-5ECA384EDE63}" ShortID="45749575">
+										<AudioFileSource Name="Shot_Bow_03" ID="{4EA471B7-4E61-4ACC-B88D-48AFB38972ED}" ShortID="170147237">
 											<Language>SFX</Language>
-											<AudioFile>Shot_Bow_4.wav</AudioFile>
+											<AudioFile>Bow\Shot_Bow_03.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Shot_Bow_4" ID="{57DBC386-7AD3-49DC-88AE-5ECA384EDE63}" Platform="Linked"/>
+										<ActiveSource Name="Shot_Bow_03" ID="{4EA471B7-4E61-4ACC-B88D-48AFB38972ED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Pizz" ID="{4626E7BF-D6DF-4D47-BA30-DBE3D9D2A76F}" ShortID="502657312">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Shot_Pizz_01" ID="{FEDF9C96-97C1-4475-9C0D-C40A7CE7B355}" ShortID="953337688">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shot_Pizz_01" ID="{2C1F7CC1-2EBE-4835-BAB3-BB72E00FC7F1}" ShortID="12607921">
+											<Language>SFX</Language>
+											<AudioFile>Pizz\Shot_Pizz_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Shot_Pizz_01" ID="{2C1F7CC1-2EBE-4835-BAB3-BB72E00FC7F1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Shot_Pizz_02" ID="{14E58EAF-E30C-4272-AE63-C9CCCCD9103B}" ShortID="474983883">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shot_Pizz_02" ID="{3EDD56DD-7ADF-428C-A9EB-0205E5975045}" ShortID="281350948">
+											<Language>SFX</Language>
+											<AudioFile>Pizz\Shot_Pizz_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Shot_Pizz_02" ID="{3EDD56DD-7ADF-428C-A9EB-0205E5975045}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Shot_Pizz_03" ID="{76D5AEC7-7402-44EF-B635-8112A94952E9}" ShortID="346598144">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shot_Pizz_03" ID="{44249F5C-217A-4772-BCCF-4FB4D83A7A2A}" ShortID="1023921326">
+											<Language>SFX</Language>
+											<AudioFile>Pizz\Shot_Pizz_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Shot_Pizz_03" ID="{44249F5C-217A-4772-BCCF-4FB4D83A7A2A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Shot_Pizz_04" ID="{9B0B7985-F0BF-4096-9C35-A38981F33037}" ShortID="375544207">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shot_Pizz_04" ID="{43A9E1CE-F806-45A3-9326-0F7D4906E741}" ShortID="488822358">
+											<Language>SFX</Language>
+											<AudioFile>Pizz\Shot_Pizz_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Shot_Pizz_04" ID="{43A9E1CE-F806-45A3-9326-0F7D4906E741}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Shot_Pizz_05" ID="{3B1EAB7F-DEA7-4039-B9F0-16D042CB1371}" ShortID="614153482">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shot_Pizz_05" ID="{CC55F0EC-5358-426F-83E8-D045F3DBB0E9}" ShortID="394518430">
+											<Language>SFX</Language>
+											<AudioFile>Pizz\Shot_Pizz_05.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Shot_Pizz_05" ID="{CC55F0EC-5358-426F-83E8-D045F3DBB0E9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Shot_Pizz_06" ID="{319DF2F5-525F-4F43-9AA2-0C07D1949099}" ShortID="292175754">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shot_Pizz_06" ID="{996560EF-9C39-43E2-B669-DC1107C2E58A}" ShortID="572382267">
+											<Language>SFX</Language>
+											<AudioFile>Pizz\Shot_Pizz_06.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Shot_Pizz_06" ID="{996560EF-9C39-43E2-B669-DC1107C2E58A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Shot_Pizz_07" ID="{B262DAA5-D9E7-43D0-AA41-232B06A9C96A}" ShortID="975392289">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shot_Pizz_07" ID="{C6F15CD3-10E3-427D-B1DB-858D64F96FAD}" ShortID="739289746">
+											<Language>SFX</Language>
+											<AudioFile>Pizz\Shot_Pizz_07.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Shot_Pizz_07" ID="{C6F15CD3-10E3-427D-B1DB-858D64F96FAD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Shot_Pizz_08" ID="{121DE193-240C-4AD2-B8DC-E1D285C804BE}" ShortID="930561644">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shot_Pizz_08" ID="{C6E3CBA1-F066-47C2-B155-CBF1B291E211}" ShortID="1060065124">
+											<Language>SFX</Language>
+											<AudioFile>Pizz\Shot_Pizz_08.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Shot_Pizz_08" ID="{C6E3CBA1-F066-47C2-B155-CBF1B291E211}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -568,6 +732,11 @@
 				</BlendContainer>
 				<Sound Name="Swarm_Pickup" ID="{7843D9A8-AD98-4F34-93DE-A9FEA9F63C87}" ShortID="736272389">
 					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
 								<ModifierInfo>
@@ -580,6 +749,11 @@
 									</Modifier>
 								</ModifierInfo>
 							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -600,6 +774,190 @@
 						<ActiveSource Name="Swarm_Pickup" ID="{0EA79347-3400-4BC2-8E15-19CAEBE9A510}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="Death" ID="{99968EDA-E913-4E17-B57B-8F41009E2E8F}" ShortID="869674079">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{253030A0-D5A7-4D8F-95FD-F3E91D2457C4}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="300"/>
+											<Property Name="Min" Type="Real64" Value="-300"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Death_01" ID="{4E44FB38-C282-4535-9FB3-747486E7ED1E}" ShortID="204383018">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Death_01" ID="{97E7852B-8FEA-47E6-BBB7-F1659CD1BEB8}" ShortID="294782063">
+									<Language>SFX</Language>
+									<AudioFile>Death_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Death_01" ID="{97E7852B-8FEA-47E6-BBB7-F1659CD1BEB8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Death_02" ID="{7CD80DD1-8CA8-4DE2-9A7D-F88A8D38D7DB}" ShortID="660804969">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Death_02" ID="{710AA0E1-5800-4049-A657-E693B047681A}" ShortID="892627949">
+									<Language>SFX</Language>
+									<AudioFile>Death_02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Death_02" ID="{710AA0E1-5800-4049-A657-E693B047681A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Death_03" ID="{CDD779B1-9435-4383-9256-CE2AE795D8DE}" ShortID="606551692">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Death_03" ID="{13E467C5-6DDA-435B-80CB-448B61975715}" ShortID="914693096">
+									<Language>SFX</Language>
+									<AudioFile>Death_03.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Death_03" ID="{13E467C5-6DDA-435B-80CB-448B61975715}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Death_04" ID="{85E09307-3A1B-4B4D-B383-7CD755012DA9}" ShortID="386998918">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Death_04" ID="{7D48EC45-BCBA-4C15-93CB-56268EF51963}" ShortID="979913459">
+									<Language>SFX</Language>
+									<AudioFile>Death_04.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Death_04" ID="{7D48EC45-BCBA-4C15-93CB-56268EF51963}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Death_05" ID="{1FE40E23-9486-4F77-99BA-7CC400BAE39C}" ShortID="834546026">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Death_05" ID="{A703611D-9F16-434F-A750-51B2F704079E}" ShortID="611979770">
+									<Language>SFX</Language>
+									<AudioFile>Death_05.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Death_05" ID="{A703611D-9F16-434F-A750-51B2F704079E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Death_06" ID="{8E482F60-1B0D-44C1-B115-DA4FE5120CD6}" ShortID="266103233">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Death_06" ID="{7EEC9DF3-4442-4DC0-BD84-2E124995C9AD}" ShortID="788984634">
+									<Language>SFX</Language>
+									<AudioFile>Death_06.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Death_06" ID="{7EEC9DF3-4442-4DC0-BD84-2E124995C9AD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Death_07" ID="{6ED267BD-83E2-4259-8CC5-D8BB5E8A5B76}" ShortID="538281939">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Death_07" ID="{1FAC4F63-311A-402C-B439-6402AA3D0752}" ShortID="61541177">
+									<Language>SFX</Language>
+									<AudioFile>Death_07.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Death_07" ID="{1FAC4F63-311A-402C-B439-6402AA3D0752}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Death_08" ID="{1109669B-50C1-4048-B75F-950ECC8EFBAB}" ShortID="139537992">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Death_08" ID="{B786DEFE-C489-4E77-809F-636290FE0FBD}" ShortID="1013208886">
+									<Language>SFX</Language>
+									<AudioFile>Death_08.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Death_08" ID="{B786DEFE-C489-4E77-809F-636290FE0FBD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
