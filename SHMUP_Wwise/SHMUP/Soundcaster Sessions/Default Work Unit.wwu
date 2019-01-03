@@ -25,7 +25,11 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="PyuNumber" ID="{40834A75-AE01-4BAD-BD25-F729BFB5FFAE}"/>
+<<<<<<< Updated upstream
 							<Value>20</Value>
+=======
+							<Value>180.780209324453</Value>
+>>>>>>> Stashed changes
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

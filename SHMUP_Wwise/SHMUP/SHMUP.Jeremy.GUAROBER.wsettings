@@ -24,6 +24,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="bvEoU/NLGUqhtj638g//zA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="frU21BY3skWq62jB6qDpNw=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
+				<Property Name="Interactive Music\x64_{290093B8-0B1C-41D7-9BE0-B974F6943D40} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP41aAznJXBFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -37,9 +38,11 @@
 				<Property Name="Music Transition List\{0161E251-B8A4-4BC1-BB37-C01D49F27F0B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{42A7CBF6-4AE3-45A1-9366-626D21806881}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{5ACDA276-DADC-4466-B668-AA29CFC48F60}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{7A6F0BB7-FB0B-4286-B108-315241FCF1FD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{91053E64-FE23-41FC-B7A0-FAB042AD3D5C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{ACC1ABC3-E9E0-483C-B6F8-65E4B18C1E82}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{D3C2499D-2599-482D-8AEC-9836A5E320A5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{F45E3B7C-9D05-4906-91D3-4736FC2B7CF5}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="OverrideCacheFolder\Active" Type="bool" Value="False"/>
 				<Property Name="OverrideCacheFolder\Path" Type="string" Value=".cache"/>
 				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="True"/>
@@ -53,7 +56,7 @@
 				<Property Name="ProjectExplorer\FirstVisible_8_1" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
 				<Property Name="ProjectExplorer\x64_Expanded_10_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_11_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value="h6l57dn8q0Wu/iaoIeKJOJ1JwtOZJS1IiuyYNqXjIKU="/>
+				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value="dqLNWtzaZkS2aKopz8SPYIepee3Z/KtFrv4mqCHiiTidScLTmSUtSIrsmDal4yCl"/>
 				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_15_1" Type="string" Value=""/>
@@ -68,10 +71,10 @@
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="Pqrhcv0sGEWDyhAS3c/0rQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="2RJi22bZfEOKscdTmO4JvQI/ouhY7MBPmoIWOpRHO/0="/>
-				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="JEq/uwCVwU6w8XRpfO+m7Q=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value="EvORdi8H30GH5gtBQUk6iQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
-				<Property Name="RTPC\GameParameterSimValue\{40834A75-AE01-4BAD-BD25-F729BFB5FFAE}" Type="Real64" Value="23.8915318744053"/>
+				<Property Name="RTPC\GameParameterSimValue\{40834A75-AE01-4BAD-BD25-F729BFB5FFAE}" Type="Real64" Value="180.780209324453"/>
 				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value="JEq/uwCVwU6w8XRpfO+m7Q=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPathUserOverride" Type="bool" Value="True"/>
