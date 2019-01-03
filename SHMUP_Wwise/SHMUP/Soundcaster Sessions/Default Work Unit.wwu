@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{314BEAA8-1E4C-4D1F-A0B9-E163827602C4}" SchemaVersion="89">
+<WwiseDocument Type="WorkUnit" ID="{A2629E7C-2FE9-44B3-B116-E02A1285E259}" SchemaVersion="89">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{314BEAA8-1E4C-4D1F-A0B9-E163827602C4}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{A2629E7C-2FE9-44B3-B116-E02A1285E259}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundcasterSession Name="Test" ID="{A38712F1-82C7-46C5-BAF9-412B91C99D8B}">
+				<SoundcasterSession Name="New Soundcaster Session" ID="{A48ADC09-A445-4A80-A946-89129581BDF4}">
 					<ModuleList>
 						<Module>
 							<ObjectRef Name="Play_Music" ID="{71986B0F-BC30-404C-9772-CD11A1D0D25F}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_PickUp" ID="{18588FDB-20B4-4AF1-958B-9B1D72C05019}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
-							<Position X="1" Y="0"/>
+							<ObjectRef Name="Play_Boss_Bullets" ID="{9A72FBEE-E383-4966-88EF-94785DF863AB}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
+							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Shots" ID="{2C5F4DB8-18FE-4AE9-A9C7-5DDCEB5CE710}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
-							<Position X="2" Y="0"/>
+							<ObjectRef Name="Play_Boss_NormalHit" ID="{F2851F69-5E28-4012-9DCE-23F6489674D8}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
+							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Death" ID="{84B6EAC0-6D9E-4894-B9A7-5D5E16C7FE9F}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
-							<Position X="3" Y="0"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PickUp" ID="{18588FDB-20B4-4AF1-958B-9B1D72C05019}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Shots" ID="{2C5F4DB8-18FE-4AE9-A9C7-5DDCEB5CE710}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
+							<Position X="1" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="PyuNumber" ID="{40834A75-AE01-4BAD-BD25-F729BFB5FFAE}"/>
-<<<<<<< Updated upstream
-							<Value>20</Value>
-=======
-							<Value>180.780209324453</Value>
->>>>>>> Stashed changes
+							<Value>30</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

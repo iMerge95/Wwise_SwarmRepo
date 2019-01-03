@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{BF90E0DA-6904-4035-8C47-8830861B712A}" SchemaVersion="89">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{BF90E0DA-6904-4035-8C47-8830861B712A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{BF90E0DA-6904-4035-8C47-8830861B712A}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="New Mixing Session" ID="{3B50C477-1987-4F89-AB64-BC7ADB53346B}">
+					<ObjectList>
+						<ObjectRef Name="Bullets" ID="{58899B1C-31A8-45C7-80BD-13D41CAA83B8}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+						<ObjectRef Name="NormalHit" ID="{BFC44F22-5FC2-4D31-A47A-1625C1155841}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+						<ObjectRef Name="Death" ID="{99968EDA-E913-4E17-B57B-8F41009E2E8F}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+						<ObjectRef Name="Pickup" ID="{96BC4E99-651E-47F5-808A-31230F63DF84}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+						<ObjectRef Name="Shots" ID="{57EFD91E-9DAB-492E-82F5-026B568F248E}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+						<ObjectRef Name="BGM" ID="{5ACDA276-DADC-4466-B668-AA29CFC48F60}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>

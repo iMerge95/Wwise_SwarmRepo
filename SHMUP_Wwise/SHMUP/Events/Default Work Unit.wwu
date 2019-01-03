@@ -25,7 +25,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Swarm_Pickup" ID="{7843D9A8-AD98-4F34-93DE-A9FEA9F63C87}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+									<ObjectRef Name="Pickup" ID="{96BC4E99-651E-47F5-808A-31230F63DF84}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -54,6 +54,34 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Death" ID="{99968EDA-E913-4E17-B57B-8F41009E2E8F}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Boss_Bullets" ID="{9A72FBEE-E383-4966-88EF-94785DF863AB}">
+					<ChildrenList>
+						<Action Name="" ID="{76E116F9-7302-4449-953C-797080504061}" ShortID="1069189838">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bullets" ID="{58899B1C-31A8-45C7-80BD-13D41CAA83B8}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Boss_NormalHit" ID="{F2851F69-5E28-4012-9DCE-23F6489674D8}">
+					<ChildrenList>
+						<Action Name="" ID="{B5A496EE-12DF-4DB6-A02D-DC5121654221}" ShortID="574223738">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NormalHit" ID="{BFC44F22-5FC2-4D31-A47A-1625C1155841}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
