@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_BOSS_BULLETS = 695538091U;
+        static const AkUniqueID PLAY_BOSS_NORMALHIT = 2842351876U;
         static const AkUniqueID PLAY_DEATH = 1172822028U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_PICKUP = 3860455926U;

@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{2B631136-1105-4357-A382-5E1AFD56ED8B}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="Pyus" ID="{E6592BD7-573F-4035-98EA-80C46075FD25}" ShortID="539905060">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -17,7 +24,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>-9</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
