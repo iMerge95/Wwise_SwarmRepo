@@ -209,6 +209,45 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Mortier" ID="{EC405E55-F0C0-4288-8FD9-80927FFDC28E}">
+					<ChildrenList>
+						<Action Name="" ID="{3268C517-C331-4D57-80D5-C234BA103073}" ShortID="739956707">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mortier_Loop1" ID="{B22386C4-4AE6-4E9A-9092-A88DD93B8470}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Mortier" ID="{DC0FEC30-5314-4AAF-820F-A5AE6ECF5B10}">
+					<ChildrenList>
+						<Action Name="" ID="{CEDDBEA5-54FA-42EC-9F44-184C555902E9}" ShortID="724028671">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mortier_Out" ID="{C644203D-7C84-4D0B-B985-901A80F6C9FA}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6B39732D-C8AF-4747-98C7-5F65D237DBD0}" ShortID="555019101">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mortier_Loop1" ID="{B22386C4-4AE6-4E9A-9092-A88DD93B8470}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

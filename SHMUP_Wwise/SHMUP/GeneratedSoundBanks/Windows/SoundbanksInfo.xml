@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\</ProjectRoot>
+		<SourceFilesRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -28,12 +28,14 @@
 				<Event Id="1172822028" Name="Play_Death" ObjectPath="\Events\Default Work Unit\Play_Death"/>
 				<Event Id="1822128376" Name="Play_HardHit" ObjectPath="\Events\Default Work Unit\Play_HardHit"/>
 				<Event Id="2270376495" Name="Play_Laser" ObjectPath="\Events\Default Work Unit\Play_Laser"/>
+				<Event Id="3355890260" Name="Play_Mortier" ObjectPath="\Events\Default Work Unit\Play_Mortier"/>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music"/>
 				<Event Id="3860455926" Name="Play_PickUp" ObjectPath="\Events\Default Work Unit\Play_PickUp"/>
 				<Event Id="3061091197" Name="Play_Shots" ObjectPath="\Events\Default Work Unit\Play_Shots"/>
 				<Event Id="435770000" Name="Stop_Amb" ObjectPath="\Events\Default Work Unit\Stop_Amb" MaxAttenuation="0.000000"/>
 				<Event Id="1532176313" Name="Stop_Cone" ObjectPath="\Events\Default Work Unit\Stop_Cone"/>
 				<Event Id="738066393" Name="Stop_Laser" ObjectPath="\Events\Default Work Unit\Stop_Laser"/>
+				<Event Id="1370337034" Name="Stop_Mortier" ObjectPath="\Events\Default Work Unit\Stop_Mortier"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="6577448" Language="SFX">
@@ -79,6 +81,10 @@
 				<File Id="170147237" Language="SFX">
 					<ShortName>Bow\Shot_Bow_03.wav</ShortName>
 					<Path>SFX\Bow\Shot_Bow_03_56D34C19.wem</Path>
+				</File>
+				<File Id="174663714" Language="SFX">
+					<ShortName>Mortier_Loop.wav</ShortName>
+					<Path>SFX\Mortier_Loop_E5599837.wem</Path>
 				</File>
 				<File Id="220159209" Language="SFX">
 					<ShortName>Laser_In.wav</ShortName>
@@ -151,6 +157,10 @@
 				<File Id="364253741" Language="SFX">
 					<ShortName>Shot_Drop_02.wav</ShortName>
 					<Path>SFX\Shot_Drop_02_56D34C19.wem</Path>
+				</File>
+				<File Id="371207202" Language="SFX">
+					<ShortName>Mortier_Out.wav</ShortName>
+					<Path>SFX\Mortier_Out_56D34C19.wem</Path>
 				</File>
 				<File Id="371636059" Language="SFX">
 					<ShortName>AMB_03.wav</ShortName>

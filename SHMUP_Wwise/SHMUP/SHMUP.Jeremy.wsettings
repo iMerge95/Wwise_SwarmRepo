@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{0534FC59-49C8-4269-9EC0-0F1BB110C722}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\Cubase LE AI Elements Projects\Cubase Projects SOUND DESIGN\ENJMIN\SHMUP SD\EXPORTS SD\Amb"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\Cubase LE AI Elements Projects\Cubase Projects SOUND DESIGN\ENJMIN\SHMUP SD\EXPORTS SD\Boss\Mortier"/>
 				<Property Name="Event Action List\{10B85B97-37B4-414D-A752-7D39AC77FE5F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{18588FDB-20B4-4AF1-958B-9B1D72C05019}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1EBFFFC9-C1E4-4C27-99BB-9567F5D9FD1A}\x64_Expand States" Type="string" Value=""/>
@@ -16,6 +16,8 @@
 				<Property Name="Event Action List\{846D0AB9-9399-4A93-8D2E-A72A5C849B43}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{84B6EAC0-6D9E-4894-B9A7-5D5E16C7FE9F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9A72FBEE-E383-4966-88EF-94785DF863AB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{DC0FEC30-5314-4AAF-820F-A5AE6ECF5B10}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{EC405E55-F0C0-4288-8FD9-80927FFDC28E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F2851F69-5E28-4012-9DCE-23F6489674D8}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
