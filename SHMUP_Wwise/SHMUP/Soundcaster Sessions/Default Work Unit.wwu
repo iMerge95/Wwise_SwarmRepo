@@ -62,14 +62,14 @@
 							<Position X="3" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Boss_NormalHit" ID="{F2851F69-5E28-4012-9DCE-23F6489674D8}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
+							<ObjectRef Name="Play_NormalHit" ID="{F2851F69-5E28-4012-9DCE-23F6489674D8}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
 							<Position X="3" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="PyuNumber" ID="{40834A75-AE01-4BAD-BD25-F729BFB5FFAE}"/>
-							<Value>19.065</Value>
+							<Value>75</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">

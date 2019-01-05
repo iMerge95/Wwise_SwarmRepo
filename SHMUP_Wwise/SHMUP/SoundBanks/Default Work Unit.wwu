@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main_Bank" ID="{D436B57E-3716-45B2-AAEB-68C1EAA0E937}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Boss_NormalHit" ID="{F2851F69-5E28-4012-9DCE-23F6489674D8}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_NormalHit" ID="{F2851F69-5E28-4012-9DCE-23F6489674D8}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Music" ID="{71986B0F-BC30-404C-9772-CD11A1D0D25F}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_HardHit" ID="{10B85B97-37B4-414D-A752-7D39AC77FE5F}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Mortier" ID="{EC405E55-F0C0-4288-8FD9-80927FFDC28E}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>

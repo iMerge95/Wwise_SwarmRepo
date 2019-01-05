@@ -23,13 +23,13 @@
 			<IncludedEvents>
 				<Event Id="2959533290" Name="Play_Amb" ObjectPath="\Events\Default Work Unit\Play_Amb"/>
 				<Event Id="695538091" Name="Play_Boss_Bullets" ObjectPath="\Events\Default Work Unit\Play_Boss_Bullets"/>
-				<Event Id="2842351876" Name="Play_Boss_NormalHit" ObjectPath="\Events\Default Work Unit\Play_Boss_NormalHit"/>
 				<Event Id="3198067375" Name="Play_Cone" ObjectPath="\Events\Default Work Unit\Play_Cone"/>
 				<Event Id="1172822028" Name="Play_Death" ObjectPath="\Events\Default Work Unit\Play_Death"/>
 				<Event Id="1822128376" Name="Play_HardHit" ObjectPath="\Events\Default Work Unit\Play_HardHit"/>
 				<Event Id="2270376495" Name="Play_Laser" ObjectPath="\Events\Default Work Unit\Play_Laser"/>
 				<Event Id="3355890260" Name="Play_Mortier" ObjectPath="\Events\Default Work Unit\Play_Mortier"/>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music"/>
+				<Event Id="4153769294" Name="Play_NormalHit" ObjectPath="\Events\Default Work Unit\Play_NormalHit"/>
 				<Event Id="3860455926" Name="Play_PickUp" ObjectPath="\Events\Default Work Unit\Play_PickUp"/>
 				<Event Id="3061091197" Name="Play_Shots" ObjectPath="\Events\Default Work Unit\Play_Shots"/>
 				<Event Id="435770000" Name="Stop_Amb" ObjectPath="\Events\Default Work Unit\Stop_Amb" MaxAttenuation="0.000000"/>

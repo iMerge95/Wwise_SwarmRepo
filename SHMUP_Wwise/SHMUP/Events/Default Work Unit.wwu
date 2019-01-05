@@ -73,7 +73,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Boss_NormalHit" ID="{F2851F69-5E28-4012-9DCE-23F6489674D8}">
+				<Event Name="Play_NormalHit" ID="{F2851F69-5E28-4012-9DCE-23F6489674D8}">
 					<ChildrenList>
 						<Action Name="" ID="{B5A496EE-12DF-4DB6-A02D-DC5121654221}" ShortID="574223738">
 							<PropertyList>

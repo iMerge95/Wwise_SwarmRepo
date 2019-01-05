@@ -20,8 +20,9 @@
 										<PointList>
 											<Point>
 												<XPos>1</XPos>
-												<YPos>91</YPos>
+												<YPos>85</YPos>
 												<Flags>5</Flags>
+												<SegmentShape>Log3</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>30</XPos>

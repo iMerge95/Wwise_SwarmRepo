@@ -7,13 +7,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	1532176313	Stop_Cone			\Default Work Unit\Stop_Cone	
 	1822128376	Play_HardHit			\Default Work Unit\Play_HardHit	
 	2270376495	Play_Laser			\Default Work Unit\Play_Laser	
-	2842351876	Play_Boss_NormalHit			\Default Work Unit\Play_Boss_NormalHit	
 	2932040671	Play_Music			\Default Work Unit\Play_Music	
 	2959533290	Play_Amb			\Default Work Unit\Play_Amb	
 	3061091197	Play_Shots			\Default Work Unit\Play_Shots	
 	3198067375	Play_Cone			\Default Work Unit\Play_Cone	
 	3355890260	Play_Mortier			\Default Work Unit\Play_Mortier	
 	3860455926	Play_PickUp			\Default Work Unit\Play_PickUp	
+	4153769294	Play_NormalHit			\Default Work Unit\Play_NormalHit	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	6577448	Pickup_03	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Pickup\Pickup_03_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Pickup\Pickup_03		345668
