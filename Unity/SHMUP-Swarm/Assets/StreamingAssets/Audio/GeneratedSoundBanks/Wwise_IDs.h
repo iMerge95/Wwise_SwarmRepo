@@ -13,12 +13,19 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMB = 2959533290U;
         static const AkUniqueID PLAY_BOSS_BULLETS = 695538091U;
         static const AkUniqueID PLAY_BOSS_NORMALHIT = 2842351876U;
+        static const AkUniqueID PLAY_CONE = 3198067375U;
         static const AkUniqueID PLAY_DEATH = 1172822028U;
+        static const AkUniqueID PLAY_HARDHIT = 1822128376U;
+        static const AkUniqueID PLAY_LASER = 2270376495U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_PICKUP = 3860455926U;
         static const AkUniqueID PLAY_SHOTS = 3061091197U;
+        static const AkUniqueID STOP_AMB = 435770000U;
+        static const AkUniqueID STOP_CONE = 1532176313U;
+        static const AkUniqueID STOP_LASER = 738066393U;
     } // namespace EVENTS
 
     namespace STATES
@@ -52,6 +59,11 @@ namespace AK
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID REV = 980603520U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

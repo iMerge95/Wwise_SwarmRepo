@@ -19,15 +19,9 @@
 										</PropertyList>
 										<PointList>
 											<Point>
-												<XPos>0</XPos>
-												<YPos>0</YPos>
+												<XPos>1</XPos>
+												<YPos>91</YPos>
 												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>0.001</XPos>
-												<YPos>100</YPos>
-												<Flags>0</Flags>
-												<SegmentShape>Log3</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>30</XPos>
@@ -50,6 +44,15 @@
 							<ObjectRef Name="System" ID="{4DB08353-CCEC-48CD-BB53-919F7D471143}" WorkUnitID="{376A293C-2238-46C9-949D-D8A1B0EAD963}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="Rev" ID="{65669E4C-136C-4A57-8D67-F379FD6D3AAD}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Inside_My_Head" ID="{94B53301-9AA1-468F-8419-92AEDAAE39DF}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
