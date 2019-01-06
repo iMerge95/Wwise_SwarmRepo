@@ -18,10 +18,6 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Mortier" ID="{EC405E55-F0C0-4288-8FD9-80927FFDC28E}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
-							<Position X="0" Y="3"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_Death" ID="{84B6EAC0-6D9E-4894-B9A7-5D5E16C7FE9F}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -34,10 +30,6 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stop_Mortier" ID="{DC0FEC30-5314-4AAF-820F-A5AE6ECF5B10}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
-							<Position X="1" Y="3"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Stop_Laser" ID="{82504E42-6266-4D38-8B0C-07E871174264}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -46,11 +38,11 @@
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_HardHit" ID="{10B85B97-37B4-414D-A752-7D39AC77FE5F}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
+							<ObjectRef Name="Play_Bullets" ID="{9A72FBEE-E383-4966-88EF-94785DF863AB}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Boss_Bullets" ID="{9A72FBEE-E383-4966-88EF-94785DF863AB}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
+							<ObjectRef Name="Play_BossOpen" ID="{DA803DD8-1274-40DE-AFDE-06EE8272767C}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
 							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
@@ -62,8 +54,24 @@
 							<Position X="3" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_NormalHit" ID="{F2851F69-5E28-4012-9DCE-23F6489674D8}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
+							<ObjectRef Name="Play_Mortier" ID="{EC405E55-F0C0-4288-8FD9-80927FFDC28E}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
 							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Mortier" ID="{DC0FEC30-5314-4AAF-820F-A5AE6ECF5B10}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_NormalHit" ID="{F2851F69-5E28-4012-9DCE-23F6489674D8}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_CoeurHit" ID="{C5CBC488-3B08-4A33-9D3B-F30336B86562}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_HardHit" ID="{10B85B97-37B4-414D-A752-7D39AC77FE5F}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
+							<Position X="4" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">

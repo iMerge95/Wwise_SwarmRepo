@@ -22,7 +22,9 @@
 			<Path>Main_Bank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2959533290" Name="Play_Amb" ObjectPath="\Events\Default Work Unit\Play_Amb"/>
-				<Event Id="695538091" Name="Play_Boss_Bullets" ObjectPath="\Events\Default Work Unit\Play_Boss_Bullets"/>
+				<Event Id="85760201" Name="Play_BossOpen" ObjectPath="\Events\Default Work Unit\Play_BossOpen"/>
+				<Event Id="1073586825" Name="Play_Bullets" ObjectPath="\Events\Default Work Unit\Play_Bullets"/>
+				<Event Id="3726300835" Name="Play_CoeurHit" ObjectPath="\Events\Default Work Unit\Play_CoeurHit"/>
 				<Event Id="3198067375" Name="Play_Cone" ObjectPath="\Events\Default Work Unit\Play_Cone"/>
 				<Event Id="1172822028" Name="Play_Death" ObjectPath="\Events\Default Work Unit\Play_Death"/>
 				<Event Id="1822128376" Name="Play_HardHit" ObjectPath="\Events\Default Work Unit\Play_HardHit"/>
@@ -41,6 +43,10 @@
 				<File Id="6577448" Language="SFX">
 					<ShortName>Pickup\Pickup_03.wav</ShortName>
 					<Path>SFX\Pickup\Pickup_03_56D34C19.wem</Path>
+				</File>
+				<File Id="9266583" Language="SFX">
+					<ShortName>HardHit_02.wav</ShortName>
+					<Path>SFX\HardHit_02_56D34C19.wem</Path>
 				</File>
 				<File Id="12607921" Language="SFX">
 					<ShortName>Pizz\Shot_Pizz_01.wav</ShortName>
@@ -86,6 +92,10 @@
 					<ShortName>Mortier_Loop.wav</ShortName>
 					<Path>SFX\Mortier_Loop_E5599837.wem</Path>
 				</File>
+				<File Id="201011898" Language="SFX">
+					<ShortName>Bullet_05.wav</ShortName>
+					<Path>SFX\Bullet_05_56D34C19.wem</Path>
+				</File>
 				<File Id="220159209" Language="SFX">
 					<ShortName>Laser_In.wav</ShortName>
 					<Path>SFX\Laser_In_56D34C19.wem</Path>
@@ -130,10 +140,6 @@
 					<ShortName>Death_05.wav</ShortName>
 					<Path>SFX\Death_05_56D34C19.wem</Path>
 				</File>
-				<File Id="289540314" Language="SFX">
-					<ShortName>HardHit\HardHit_01.wav</ShortName>
-					<Path>SFX\HardHit\HardHit_01_56D34C19.wem</Path>
-				</File>
 				<File Id="298529461" Language="SFX">
 					<ShortName>NormalHit\Hit_04.wav</ShortName>
 					<Path>SFX\NormalHit\Hit_04_56D34C19.wem</Path>
@@ -145,6 +151,10 @@
 				<File Id="326855980" Language="SFX">
 					<ShortName>Cone_In.wav</ShortName>
 					<Path>SFX\Cone_In_56D34C19.wem</Path>
+				</File>
+				<File Id="327436111" Language="SFX">
+					<ShortName>Bullet_08.wav</ShortName>
+					<Path>SFX\Bullet_08_56D34C19.wem</Path>
 				</File>
 				<File Id="336564444" Language="SFX">
 					<ShortName>Bow\Shot_Bow_01.wav</ShortName>
@@ -174,33 +184,37 @@
 					<ShortName>Shot_Drop_08.wav</ShortName>
 					<Path>SFX\Shot_Drop_08_56D34C19.wem</Path>
 				</File>
+				<File Id="393543360" Language="SFX">
+					<ShortName>CoeurHit\CoeurHit_05.wav</ShortName>
+					<Path>SFX\CoeurHit\CoeurHit_05_56D34C19.wem</Path>
+				</File>
 				<File Id="394518430" Language="SFX">
 					<ShortName>Pizz\Shot_Pizz_05.wav</ShortName>
 					<Path>SFX\Pizz\Shot_Pizz_05_56D34C19.wem</Path>
+				</File>
+				<File Id="397436735" Language="SFX">
+					<ShortName>CoeurHit\CoeurHit_02.wav</ShortName>
+					<Path>SFX\CoeurHit\CoeurHit_02_56D34C19.wem</Path>
+				</File>
+				<File Id="405403541" Language="SFX">
+					<ShortName>Bullet_06.wav</ShortName>
+					<Path>SFX\Bullet_06_56D34C19.wem</Path>
 				</File>
 				<File Id="421387598" Language="SFX">
 					<ShortName>Death_01.wav</ShortName>
 					<Path>SFX\Death_01_56D34C19.wem</Path>
 				</File>
-				<File Id="440663008" Language="SFX">
-					<ShortName>Bullets\Bullet_04.wav</ShortName>
-					<Path>SFX\Bullets\Bullet_04_56D34C19.wem</Path>
+				<File Id="429688716" Language="SFX">
+					<ShortName>CoeurHit\CoeurHit_04.wav</ShortName>
+					<Path>SFX\CoeurHit\CoeurHit_04_56D34C19.wem</Path>
+				</File>
+				<File Id="448670574" Language="SFX">
+					<ShortName>Bullet_07.wav</ShortName>
+					<Path>SFX\Bullet_07_56D34C19.wem</Path>
 				</File>
 				<File Id="458283295" Language="SFX">
 					<ShortName>Shot_Water_05.wav</ShortName>
 					<Path>SFX\Shot_Water_05_56D34C19.wem</Path>
-				</File>
-				<File Id="462225868" Language="SFX">
-					<ShortName>Bullets\Bullet_05.wav</ShortName>
-					<Path>SFX\Bullets\Bullet_05_56D34C19.wem</Path>
-				</File>
-				<File Id="465922222" Language="SFX">
-					<ShortName>Bullets\Bullet_03.wav</ShortName>
-					<Path>SFX\Bullets\Bullet_03_56D34C19.wem</Path>
-				</File>
-				<File Id="483241347" Language="SFX">
-					<ShortName>Bullets\Bullet_02.wav</ShortName>
-					<Path>SFX\Bullets\Bullet_02_56D34C19.wem</Path>
 				</File>
 				<File Id="484168471" Language="SFX">
 					<ShortName>Death_08.wav</ShortName>
@@ -226,6 +240,14 @@
 					<ShortName>Pizz\Shot_Pizz_06.wav</ShortName>
 					<Path>SFX\Pizz\Shot_Pizz_06_56D34C19.wem</Path>
 				</File>
+				<File Id="581103048" Language="SFX">
+					<ShortName>Boss_Ouverture.wav</ShortName>
+					<Path>SFX\Boss_Ouverture_56D34C19.wem</Path>
+				</File>
+				<File Id="581587768" Language="SFX">
+					<ShortName>Bullet_03.wav</ShortName>
+					<Path>SFX\Bullet_03_56D34C19.wem</Path>
+				</File>
 				<File Id="584500036" Language="SFX">
 					<ShortName>Death_04.wav</ShortName>
 					<Path>SFX\Death_04_56D34C19.wem</Path>
@@ -234,17 +256,13 @@
 					<ShortName>Shot_Water_01.wav</ShortName>
 					<Path>SFX\Shot_Water_01_56D34C19.wem</Path>
 				</File>
-				<File Id="625481144" Language="SFX">
-					<ShortName>HardHit\HardHit_03.wav</ShortName>
-					<Path>SFX\HardHit\HardHit_03_56D34C19.wem</Path>
-				</File>
 				<File Id="628022234" Language="SFX">
 					<ShortName>Shot_Drop_07.wav</ShortName>
 					<Path>SFX\Shot_Drop_07_56D34C19.wem</Path>
 				</File>
-				<File Id="630587921" Language="SFX">
-					<ShortName>Bullets\Bullet_06.wav</ShortName>
-					<Path>SFX\Bullets\Bullet_06_56D34C19.wem</Path>
+				<File Id="658504948" Language="SFX">
+					<ShortName>CoeurHit\CoeurHit_03.wav</ShortName>
+					<Path>SFX\CoeurHit\CoeurHit_03_56D34C19.wem</Path>
 				</File>
 				<File Id="661280703" Language="SFX">
 					<ShortName>Bow\Shot_Bow_05.wav</ShortName>
@@ -258,6 +276,10 @@
 					<ShortName>NormalHit\Hit_01.wav</ShortName>
 					<Path>SFX\NormalHit\Hit_01_56D34C19.wem</Path>
 				</File>
+				<File Id="684500085" Language="SFX">
+					<ShortName>HardHit_01.wav</ShortName>
+					<Path>SFX\HardHit_01_56D34C19.wem</Path>
+				</File>
 				<File Id="706712330" Language="SFX">
 					<ShortName>Bow\Shot_Bow_07.wav</ShortName>
 					<Path>SFX\Bow\Shot_Bow_07_56D34C19.wem</Path>
@@ -270,13 +292,17 @@
 					<ShortName>Pizz\Shot_Pizz_07.wav</ShortName>
 					<Path>SFX\Pizz\Shot_Pizz_07_56D34C19.wem</Path>
 				</File>
+				<File Id="742912720" Language="SFX">
+					<ShortName>Bullet_02.wav</ShortName>
+					<Path>SFX\Bullet_02_56D34C19.wem</Path>
+				</File>
 				<File Id="752994685" Language="SFX">
 					<ShortName>Shot_Water_04.wav</ShortName>
 					<Path>SFX\Shot_Water_04_56D34C19.wem</Path>
 				</File>
-				<File Id="753224255" Language="SFX">
-					<ShortName>Bullets\Bullet_07.wav</ShortName>
-					<Path>SFX\Bullets\Bullet_07_56D34C19.wem</Path>
+				<File Id="753238295" Language="SFX">
+					<ShortName>CoeurHit\CoeurHit_06.wav</ShortName>
+					<Path>SFX\CoeurHit\CoeurHit_06_56D34C19.wem</Path>
 				</File>
 				<File Id="758442989" Language="SFX">
 					<ShortName>AMB_02.wav</ShortName>
@@ -290,9 +316,21 @@
 					<ShortName>Shot_Water_06.wav</ShortName>
 					<Path>SFX\Shot_Water_06_56D34C19.wem</Path>
 				</File>
+				<File Id="810242885" Language="SFX">
+					<ShortName>HardHit_03.wav</ShortName>
+					<Path>SFX\HardHit_03_56D34C19.wem</Path>
+				</File>
+				<File Id="839798854" Language="SFX">
+					<ShortName>Bullet_04.wav</ShortName>
+					<Path>SFX\Bullet_04_56D34C19.wem</Path>
+				</File>
 				<File Id="844964365" Language="SFX">
 					<ShortName>Pickup\Pickup_01.wav</ShortName>
 					<Path>SFX\Pickup\Pickup_01_56D34C19.wem</Path>
+				</File>
+				<File Id="846405516" Language="SFX">
+					<ShortName>CoeurHit\CoeurHit_01.wav</ShortName>
+					<Path>SFX\CoeurHit\CoeurHit_01_56D34C19.wem</Path>
 				</File>
 				<File Id="853614464" Language="SFX">
 					<ShortName>NormalHit\Hit_05.wav</ShortName>
@@ -301,6 +339,10 @@
 				<File Id="856376613" Language="SFX">
 					<ShortName>Shot_Drop_05.wav</ShortName>
 					<Path>SFX\Shot_Drop_05_56D34C19.wem</Path>
+				</File>
+				<File Id="867776948" Language="SFX">
+					<ShortName>Bullet_01.wav</ShortName>
+					<Path>SFX\Bullet_01_56D34C19.wem</Path>
 				</File>
 				<File Id="903324977" Language="SFX">
 					<ShortName>Shot_Water_07.wav</ShortName>
@@ -313,10 +355,6 @@
 				<File Id="937063638" Language="SFX">
 					<ShortName>Bow\Shot_Bow_08.wav</ShortName>
 					<Path>SFX\Bow\Shot_Bow_08_56D34C19.wem</Path>
-				</File>
-				<File Id="937504225" Language="SFX">
-					<ShortName>Bullets\Bullet_08.wav</ShortName>
-					<Path>SFX\Bullets\Bullet_08_56D34C19.wem</Path>
 				</File>
 				<File Id="967551366" Language="SFX">
 					<ShortName>Bow\Shot_Bow_04.wav</ShortName>
@@ -345,14 +383,6 @@
 				<File Id="1025295264" Language="SFX">
 					<ShortName>Gravel\Shot_Gravel_07.wav</ShortName>
 					<Path>SFX\Gravel\Shot_Gravel_07_56D34C19.wem</Path>
-				</File>
-				<File Id="1025511472" Language="SFX">
-					<ShortName>Bullets\Bullet_01.wav</ShortName>
-					<Path>SFX\Bullets\Bullet_01_56D34C19.wem</Path>
-				</File>
-				<File Id="1034673666" Language="SFX">
-					<ShortName>HardHit\HardHit_02.wav</ShortName>
-					<Path>SFX\HardHit\HardHit_02_56D34C19.wem</Path>
 				</File>
 				<File Id="1060065124" Language="SFX">
 					<ShortName>Pizz\Shot_Pizz_08.wav</ShortName>

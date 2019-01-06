@@ -59,7 +59,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Boss_Bullets" ID="{9A72FBEE-E383-4966-88EF-94785DF863AB}">
+				<Event Name="Play_Bullets" ID="{9A72FBEE-E383-4966-88EF-94785DF863AB}">
 					<ChildrenList>
 						<Action Name="" ID="{76E116F9-7302-4449-953C-797080504061}" ShortID="1069189838">
 							<PropertyList>
@@ -243,6 +243,34 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Mortier_Loop1" ID="{B22386C4-4AE6-4E9A-9092-A88DD93B8470}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BossOpen" ID="{DA803DD8-1274-40DE-AFDE-06EE8272767C}">
+					<ChildrenList>
+						<Action Name="" ID="{81483548-4038-4AF4-A1F2-95C7C4ECA065}" ShortID="9982679">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossOpen" ID="{5848F054-0168-4C33-A20A-00898F34AD77}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CoeurHit" ID="{C5CBC488-3B08-4A33-9D3B-F30336B86562}">
+					<ChildrenList>
+						<Action Name="" ID="{FB0F110C-C850-4BBC-9428-6DE4D383C4C4}" ShortID="963656574">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CoeurHit" ID="{9EC945F7-4E16-4BD0-BB12-46046CF1555C}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

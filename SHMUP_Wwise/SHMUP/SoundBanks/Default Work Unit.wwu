@@ -7,11 +7,13 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_NormalHit" ID="{F2851F69-5E28-4012-9DCE-23F6489674D8}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Music" ID="{71986B0F-BC30-404C-9772-CD11A1D0D25F}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_BossOpen" ID="{DA803DD8-1274-40DE-AFDE-06EE8272767C}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_HardHit" ID="{10B85B97-37B4-414D-A752-7D39AC77FE5F}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Mortier" ID="{EC405E55-F0C0-4288-8FD9-80927FFDC28E}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Death" ID="{84B6EAC0-6D9E-4894-B9A7-5D5E16C7FE9F}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Cone" ID="{44F71907-42FC-494D-ABF9-973333563760}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Boss_Bullets" ID="{9A72FBEE-E383-4966-88EF-94785DF863AB}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Bullets" ID="{9A72FBEE-E383-4966-88EF-94785DF863AB}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CoeurHit" ID="{C5CBC488-3B08-4A33-9D3B-F30336B86562}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Amb" ID="{846D0AB9-9399-4A93-8D2E-A72A5C849B43}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Mortier" ID="{DC0FEC30-5314-4AAF-820F-A5AE6ECF5B10}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Shots" ID="{2C5F4DB8-18FE-4AE9-A9C7-5DDCEB5CE710}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
