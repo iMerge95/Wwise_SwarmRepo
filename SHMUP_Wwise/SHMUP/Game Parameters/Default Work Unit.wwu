@@ -5,9 +5,21 @@
 			<ChildrenList>
 				<GameParameter Name="PyuNumber" ID="{40834A75-AE01-4BAD-BD25-F729BFB5FFAE}">
 					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="5"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="5"/>
 						<Property Name="InitialValue" Type="Real64" Value="20"/>
 						<Property Name="Max" Type="Real64" Value="200"/>
 						<Property Name="Min" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="10"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="10"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="ElectroFilter" ID="{52BE44C7-0095-4599-A5DC-F3817A66795E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="2"/>
+						<Property Name="Max" Type="Real64" Value="7"/>
+						<Property Name="Min" Type="Real64" Value="2"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

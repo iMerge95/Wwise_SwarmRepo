@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\</ProjectRoot>
-		<SourceFilesRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles/>
+	<StreamedFiles>
+		<File Id="221349948" Language="SFX">
+			<ShortName>AMB_01.wav</ShortName>
+			<Path>SFX\AMB_01_56D34C19.wem</Path>
+		</File>
+		<File Id="371636059" Language="SFX">
+			<ShortName>AMB_03.wav</ShortName>
+			<Path>SFX\AMB_03_56D34C19.wem</Path>
+		</File>
+		<File Id="758442989" Language="SFX">
+			<ShortName>AMB_02.wav</ShortName>
+			<Path>SFX\AMB_02_56D34C19.wem</Path>
+		</File>
+	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
 		<SoundBank Id="1355168291" Language="SFX">
@@ -39,6 +52,11 @@
 				<Event Id="738066393" Name="Stop_Laser" ObjectPath="\Events\Default Work Unit\Stop_Laser"/>
 				<Event Id="1370337034" Name="Stop_Mortier" ObjectPath="\Events\Default Work Unit\Stop_Mortier"/>
 			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="221349948"/>
+				<File Id="371636059"/>
+				<File Id="758442989"/>
+			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
 				<File Id="6577448" Language="SFX">
 					<ShortName>Pickup\Pickup_03.wav</ShortName>
@@ -99,10 +117,6 @@
 				<File Id="220159209" Language="SFX">
 					<ShortName>Laser_In.wav</ShortName>
 					<Path>SFX\Laser_In_56D34C19.wem</Path>
-				</File>
-				<File Id="221349948" Language="SFX">
-					<ShortName>AMB_01.wav</ShortName>
-					<Path>SFX\AMB_01_56D34C19.wem</Path>
 				</File>
 				<File Id="230960577" Language="SFX">
 					<ShortName>Bow\Shot_Bow_06.wav</ShortName>
@@ -171,10 +185,6 @@
 				<File Id="371207202" Language="SFX">
 					<ShortName>Mortier_Out.wav</ShortName>
 					<Path>SFX\Mortier_Out_56D34C19.wem</Path>
-				</File>
-				<File Id="371636059" Language="SFX">
-					<ShortName>AMB_03.wav</ShortName>
-					<Path>SFX\AMB_03_56D34C19.wem</Path>
 				</File>
 				<File Id="381610256" Language="SFX">
 					<ShortName>Death_03.wav</ShortName>
@@ -303,10 +313,6 @@
 				<File Id="753238295" Language="SFX">
 					<ShortName>CoeurHit\CoeurHit_06.wav</ShortName>
 					<Path>SFX\CoeurHit\CoeurHit_06_56D34C19.wem</Path>
-				</File>
-				<File Id="758442989" Language="SFX">
-					<ShortName>AMB_02.wav</ShortName>
-					<Path>SFX\AMB_02_56D34C19.wem</Path>
 				</File>
 				<File Id="798441908" Language="SFX">
 					<ShortName>Pickup\Pickup_02.wav</ShortName>

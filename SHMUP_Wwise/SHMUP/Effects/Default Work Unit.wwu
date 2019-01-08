@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{75598BAF-B797-43F9-A5E9-0A4BE1DF3A6B}" SchemaVersion="89">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{75598BAF-B797-43F9-A5E9-0A4BE1DF3A6B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{75598BAF-B797-43F9-A5E9-0A4BE1DF3A6B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Wwise_Guitar_Distortion" ID="{71446ED3-6E16-44F4-AB12-814D4AFBEEE2}" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+					<PropertyList>
+						<Property Name="DistortionDrive" Type="Real32" Value="35"/>
+						<Property Name="DistortionTone" Type="Real32" Value="74"/>
+						<Property Name="DistortionType" Type="int32" Value="2"/>
+						<Property Name="WetDryMix" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{9AFD14E4-DE2C-4D56-A459-0502B2A50418}" ShortID="784349017">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ElectroFilter" ID="{52BE44C7-0095-4599-A5DC-F3817A66795E}" WorkUnitID="{7691F312-072F-41DF-87E6-0B4141493A89}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{9EBD0558-1F78-4866-B522-A5353C0F2B09}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>50</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>4.98323</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>7</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

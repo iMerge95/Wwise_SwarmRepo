@@ -11,6 +11,8 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1131003326	PyuNumber			\Default Work Unit\PyuNumber	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	Sfx			\Default Work Unit\Master Audio Bus\Sfx	
+	1117531639	Amb			\Default Work Unit\Master Audio Bus\Amb	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
