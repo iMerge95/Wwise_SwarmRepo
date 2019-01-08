@@ -77,7 +77,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="ElectroFilter" ID="{52BE44C7-0095-4599-A5DC-F3817A66795E}"/>
-							<Value>2.00986193293886</Value>
+							<Value>3</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="PyuNumber" ID="{40834A75-AE01-4BAD-BD25-F729BFB5FFAE}"/>

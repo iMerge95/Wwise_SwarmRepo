@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\</ProjectRoot>
+		<SourceFilesRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -13,9 +13,17 @@
 			<ShortName>AMB_01.wav</ShortName>
 			<Path>SFX\AMB_01_56D34C19.wem</Path>
 		</File>
+		<File Id="281407564" Language="SFX">
+			<ShortName>Swarm_ZIK_WIP_V3Corrupted.wav</ShortName>
+			<Path>SFX\Swarm_ZIK_WIP_V3Corrupted_8956FC97.wem</Path>
+		</File>
 		<File Id="371636059" Language="SFX">
 			<ShortName>AMB_03.wav</ShortName>
 			<Path>SFX\AMB_03_56D34C19.wem</Path>
+		</File>
+		<File Id="618088358" Language="SFX">
+			<ShortName>Swarm_ZIK_WIP_V3.wav</ShortName>
+			<Path>SFX\Swarm_ZIK_WIP_V3_8956FC97.wem</Path>
 		</File>
 		<File Id="758442989" Language="SFX">
 			<ShortName>AMB_02.wav</ShortName>
@@ -54,7 +62,9 @@
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="221349948"/>
+				<File Id="281407564"/>
 				<File Id="371636059"/>
+				<File Id="618088358"/>
 				<File Id="758442989"/>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
@@ -149,6 +159,11 @@
 				<File Id="281350948" Language="SFX">
 					<ShortName>Pizz\Shot_Pizz_02.wav</ShortName>
 					<Path>SFX\Pizz\Shot_Pizz_02_56D34C19.wem</Path>
+				</File>
+				<File Id="281407564" Language="SFX">
+					<ShortName>Swarm_ZIK_WIP_V3Corrupted.wav</ShortName>
+					<Path>SFX\Swarm_ZIK_WIP_V3Corrupted_8956FC97.wem</Path>
+					<PrefetchSize>19264</PrefetchSize>
 				</File>
 				<File Id="288337912" Language="SFX">
 					<ShortName>Death_05.wav</ShortName>
@@ -265,6 +280,11 @@
 				<File Id="608375069" Language="SFX">
 					<ShortName>Shot_Water_01.wav</ShortName>
 					<Path>SFX\Shot_Water_01_56D34C19.wem</Path>
+				</File>
+				<File Id="618088358" Language="SFX">
+					<ShortName>Swarm_ZIK_WIP_V3.wav</ShortName>
+					<Path>SFX\Swarm_ZIK_WIP_V3_8956FC97.wem</Path>
+					<PrefetchSize>19264</PrefetchSize>
 				</File>
 				<File Id="628022234" Language="SFX">
 					<ShortName>Shot_Drop_07.wav</ShortName>
