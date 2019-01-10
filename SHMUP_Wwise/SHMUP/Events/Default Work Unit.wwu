@@ -276,6 +276,76 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_UI_Start" ID="{B94F884D-D96A-4C06-9007-29B9F63A2966}">
+					<ChildrenList>
+						<Action Name="" ID="{281B980F-DCC1-4853-9634-0EFDD1490C83}" ShortID="839216559">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Start" ID="{6DF81470-8DCF-4856-8722-A13B3DA293E9}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Back" ID="{B40BD463-DA4E-4E86-AB24-D005C41D64E1}">
+					<ChildrenList>
+						<Action Name="" ID="{F0575BCA-4460-4CDB-8A6E-9ED9944B31A0}" ShortID="762423780">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Back" ID="{DADC13E5-556E-486A-A118-ACDDF6B4E8EF}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Valide" ID="{4DFE4156-0EFF-4F00-85EB-382A6129C8D5}">
+					<ChildrenList>
+						<Action Name="" ID="{B6F29A19-76F9-4FA8-9370-AF374D9CB5C6}" ShortID="441875929">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Valide" ID="{8AD68995-CD61-4CAE-AB81-81B6B1CC9026}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Move" ID="{39557E34-BD16-47C4-BFD9-94C6F94C4F85}">
+					<ChildrenList>
+						<Action Name="" ID="{E8AD3C09-C0CB-471D-8B34-1F529743C1F0}" ShortID="114339324">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Move" ID="{2477600D-2C5C-4D99-B7AB-CAF636BFDEFC}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BossClose" ID="{3CEDAA70-5FFB-4CE1-BC29-28B1F13C225C}">
+					<ChildrenList>
+						<Action Name="" ID="{0B26488F-28ED-4FB0-BA53-DA25FE9F7F76}" ShortID="92686650">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossClose" ID="{B0FA7367-847C-41E6-8FF0-317002CAE342}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

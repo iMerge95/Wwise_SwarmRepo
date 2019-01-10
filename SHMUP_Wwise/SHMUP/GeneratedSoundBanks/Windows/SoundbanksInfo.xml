@@ -43,6 +43,7 @@
 			<Path>Main_Bank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2959533290" Name="Play_Amb" ObjectPath="\Events\Default Work Unit\Play_Amb"/>
+				<Event Id="798848911" Name="Play_BossClose" ObjectPath="\Events\Default Work Unit\Play_BossClose"/>
 				<Event Id="85760201" Name="Play_BossOpen" ObjectPath="\Events\Default Work Unit\Play_BossOpen"/>
 				<Event Id="1073586825" Name="Play_Bullets" ObjectPath="\Events\Default Work Unit\Play_Bullets"/>
 				<Event Id="3726300835" Name="Play_CoeurHit" ObjectPath="\Events\Default Work Unit\Play_CoeurHit"/>
@@ -55,6 +56,10 @@
 				<Event Id="4153769294" Name="Play_NormalHit" ObjectPath="\Events\Default Work Unit\Play_NormalHit"/>
 				<Event Id="3860455926" Name="Play_PickUp" ObjectPath="\Events\Default Work Unit\Play_PickUp"/>
 				<Event Id="3061091197" Name="Play_Shots" ObjectPath="\Events\Default Work Unit\Play_Shots"/>
+				<Event Id="1386224142" Name="Play_UI_Back" ObjectPath="\Events\Default Work Unit\Play_UI_Back"/>
+				<Event Id="249738436" Name="Play_UI_Move" ObjectPath="\Events\Default Work Unit\Play_UI_Move"/>
+				<Event Id="643450781" Name="Play_UI_Start" ObjectPath="\Events\Default Work Unit\Play_UI_Start"/>
+				<Event Id="970083036" Name="Play_UI_Valide" ObjectPath="\Events\Default Work Unit\Play_UI_Valide"/>
 				<Event Id="435770000" Name="Stop_Amb" ObjectPath="\Events\Default Work Unit\Stop_Amb" MaxAttenuation="0.000000"/>
 				<Event Id="1532176313" Name="Stop_Cone" ObjectPath="\Events\Default Work Unit\Stop_Cone"/>
 				<Event Id="738066393" Name="Stop_Laser" ObjectPath="\Events\Default Work Unit\Stop_Laser"/>
@@ -83,6 +88,10 @@
 				<File Id="23718123" Language="SFX">
 					<ShortName>Shot_Drop_01.wav</ShortName>
 					<Path>SFX\Shot_Drop_01_56D34C19.wem</Path>
+				</File>
+				<File Id="40548001" Language="SFX">
+					<ShortName>UI_Start.wav</ShortName>
+					<Path>SFX\UI_Start_56D34C19.wem</Path>
 				</File>
 				<File Id="40640479" Language="SFX">
 					<ShortName>Cone_Out.wav</ShortName>
@@ -124,6 +133,14 @@
 					<ShortName>Bullet_05.wav</ShortName>
 					<Path>SFX\Bullet_05_56D34C19.wem</Path>
 				</File>
+				<File Id="209129911" Language="SFX">
+					<ShortName>UI_Valide.wav</ShortName>
+					<Path>SFX\UI_Valide_56D34C19.wem</Path>
+				</File>
+				<File Id="214647005" Language="SFX">
+					<ShortName>Boss_Fermeture.wav</ShortName>
+					<Path>SFX\Boss_Fermeture_56D34C19.wem</Path>
+				</File>
 				<File Id="220159209" Language="SFX">
 					<ShortName>Laser_In.wav</ShortName>
 					<Path>SFX\Laser_In_56D34C19.wem</Path>
@@ -151,6 +168,10 @@
 				<File Id="269460094" Language="SFX">
 					<ShortName>Gravel\Shot_Gravel_03.wav</ShortName>
 					<Path>SFX\Gravel\Shot_Gravel_03_56D34C19.wem</Path>
+				</File>
+				<File Id="272307536" Language="SFX">
+					<ShortName>UI_Back.wav</ShortName>
+					<Path>SFX\UI_Back_56D34C19.wem</Path>
 				</File>
 				<File Id="275235596" Language="SFX">
 					<ShortName>Gravel\Shot_Gravel_04.wav</ShortName>
@@ -334,6 +355,10 @@
 					<ShortName>CoeurHit\CoeurHit_06.wav</ShortName>
 					<Path>SFX\CoeurHit\CoeurHit_06_56D34C19.wem</Path>
 				</File>
+				<File Id="795158529" Language="SFX">
+					<ShortName>UI_Move_04.wav</ShortName>
+					<Path>SFX\UI_Move_04_56D34C19.wem</Path>
+				</File>
 				<File Id="798441908" Language="SFX">
 					<ShortName>Pickup\Pickup_02.wav</ShortName>
 					<Path>SFX\Pickup\Pickup_02_56D34C19.wem</Path>
@@ -346,6 +371,10 @@
 					<ShortName>HardHit_03.wav</ShortName>
 					<Path>SFX\HardHit_03_56D34C19.wem</Path>
 				</File>
+				<File Id="823081563" Language="SFX">
+					<ShortName>UI_Move_02.wav</ShortName>
+					<Path>SFX\UI_Move_02_56D34C19.wem</Path>
+				</File>
 				<File Id="839798854" Language="SFX">
 					<ShortName>Bullet_04.wav</ShortName>
 					<Path>SFX\Bullet_04_56D34C19.wem</Path>
@@ -357,6 +386,10 @@
 				<File Id="846405516" Language="SFX">
 					<ShortName>CoeurHit\CoeurHit_01.wav</ShortName>
 					<Path>SFX\CoeurHit\CoeurHit_01_56D34C19.wem</Path>
+				</File>
+				<File Id="849972552" Language="SFX">
+					<ShortName>UI_Move_03.wav</ShortName>
+					<Path>SFX\UI_Move_03_56D34C19.wem</Path>
 				</File>
 				<File Id="853614464" Language="SFX">
 					<ShortName>NormalHit\Hit_05.wav</ShortName>
@@ -393,6 +426,10 @@
 				<File Id="981944196" Language="SFX">
 					<ShortName>NormalHit\Hit_02.wav</ShortName>
 					<Path>SFX\NormalHit\Hit_02_56D34C19.wem</Path>
+				</File>
+				<File Id="989386248" Language="SFX">
+					<ShortName>UI_Move_01.wav</ShortName>
+					<Path>SFX\UI_Move_01_56D34C19.wem</Path>
 				</File>
 				<File Id="1015131849" Language="SFX">
 					<ShortName>Gravel\Shot_Gravel_01.wav</ShortName>

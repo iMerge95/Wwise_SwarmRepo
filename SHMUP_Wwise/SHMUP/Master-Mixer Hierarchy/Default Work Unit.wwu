@@ -133,6 +133,7 @@
 								</Property>
 							</PropertyList>
 						</Bus>
+						<Bus Name="UI" ID="{92C51CA8-4F73-4508-82E1-D3EE59D9966A}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

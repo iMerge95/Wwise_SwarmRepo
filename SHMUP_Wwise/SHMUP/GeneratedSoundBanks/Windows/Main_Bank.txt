@@ -1,10 +1,15 @@
 Event	ID	Name			Wwise Object Path	Notes
 	85760201	Play_BossOpen			\Default Work Unit\Play_BossOpen	
+	249738436	Play_UI_Move			\Default Work Unit\Play_UI_Move	
 	435770000	Stop_Amb			\Default Work Unit\Stop_Amb	
+	643450781	Play_UI_Start			\Default Work Unit\Play_UI_Start	
 	738066393	Stop_Laser			\Default Work Unit\Stop_Laser	
+	798848911	Play_BossClose			\Default Work Unit\Play_BossClose	
+	970083036	Play_UI_Valide			\Default Work Unit\Play_UI_Valide	
 	1073586825	Play_Bullets			\Default Work Unit\Play_Bullets	
 	1172822028	Play_Death			\Default Work Unit\Play_Death	
 	1370337034	Stop_Mortier			\Default Work Unit\Stop_Mortier	
+	1386224142	Play_UI_Back			\Default Work Unit\Play_UI_Back	
 	1532176313	Stop_Cone			\Default Work Unit\Stop_Cone	
 	1822128376	Play_HardHit			\Default Work Unit\Play_HardHit	
 	2270376495	Play_Laser			\Default Work Unit\Play_Laser	
@@ -25,6 +30,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9266583	HardHit_02	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\HardHit_02_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\HardHit\HardHit_02		384064
 	12607921	Shot_Pizz_01	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Pizz\Shot_Pizz_01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Pizz\Shot_Pizz_01		291904
 	23718123	Shot_Drop_01	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Shot_Drop_01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Drop\Shot_Drop_01		291444
+	40548001	UI_Start	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\UI_Start_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Start		576516
 	40640479	Cone_Out	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Cone_Out_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\ConeBurst\Cone_Out		192064
 	52560143	Shot_Water_03	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Shot_Water_03_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Water\Shot_Water_03		291904
 	61748972	Laser_Loop1	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Laser_Loop_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\LaserBurst\LaserLoop\Laser_Loop1		960064
@@ -35,6 +41,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	170147237	Shot_Bow_03	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Bow\Shot_Bow_03_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Bow\Shot_Bow_03		291904
 	174663714	Mortier_Loop1	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Mortier_Loop_E5599837.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\MortierBurst\Mortier_Loop1		576064
 	201011898	Bullet_05	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Bullet_05_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\Bullets\Bullet_05		61504
+	209129911	UI_Valide	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\UI_Valide_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Valide		576064
+	214647005	BossClose	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Boss_Fermeture_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\BossState\BossClose		528064
 	220159209	Laser_In	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Laser_In_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\LaserBurst\Laser_In		460864
 	230960577	Shot_Bow_06	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Bow\Shot_Bow_06_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Bow\Shot_Bow_06		291904
 	233521555	Swarm_ZIK_WIP_V2	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Swarm_ZIK_WIP_V2_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\Swarm_ZIK_WIP_V2\Swarm_ZIK_WIP_V2		43968064
@@ -42,6 +50,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	252024996	Shot_Gravel_06	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Gravel\Shot_Gravel_06_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Gravel\Shot_Gravel_06		291904
 	253266080	Shot_Water_02	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Shot_Water_02_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Water\Shot_Water_02		291904
 	269460094	Shot_Gravel_03	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Gravel\Shot_Gravel_03_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Gravel\Shot_Gravel_03		291904
+	272307536	UI_Back	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\UI_Back_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Back		480064
 	275235596	Shot_Gravel_04	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Gravel\Shot_Gravel_04_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Gravel\Shot_Gravel_04		291904
 	281350948	Shot_Pizz_02	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Pizz\Shot_Pizz_02_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Pizz\Shot_Pizz_02		291904
 	281407564	CorruptedTrack	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Swarm_ZIK_WIP_V3Corrupted_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\Swarm_ZIK_WIP_V2\CorruptedTrack		19264
@@ -70,7 +79,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	540524439	Shot_Gravel_08	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Gravel\Shot_Gravel_08_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Gravel\Shot_Gravel_08		291904
 	542455902	Death_06	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Death_06_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Death\Death_06		307264
 	572382267	Shot_Pizz_06	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Pizz\Shot_Pizz_06_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Pizz\Shot_Pizz_06		291904
-	581103048	BossOpen	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Boss_Ouverture_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\BossOpen		537664
+	581103048	BossOpen	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Boss_Ouverture_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\BossState\BossOpen		537664
 	581587768	Bullet_03	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Bullet_03_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\Bullets\Bullet_03		61504
 	584500036	Death_04	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Death_04_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Death\Death_04		307264
 	608375069	Shot_Water_01	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Shot_Water_01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Water\Shot_Water_01		291904
@@ -87,12 +96,15 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	742912720	Bullet_02	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Bullet_02_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\Bullets\Bullet_02		61504
 	752994685	Shot_Water_04	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Shot_Water_04_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Water\Shot_Water_04		291904
 	753238295	CoeurHit_06	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\CoeurHit\CoeurHit_06_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\CoeurHit\CoeurHit_06		153664
+	795158529	UI_Move_04	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\UI_Move_04_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Move\UI_Move_04		192064
 	798441908	Pickup_02	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Pickup\Pickup_02_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Pickup\Pickup_02		345668
 	808792766	Shot_Water_06	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Shot_Water_06_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Water\Shot_Water_06		291904
 	810242885	HardHit_03	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\HardHit_03_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\HardHit\HardHit_03		499268
+	823081563	UI_Move_02	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\UI_Move_02_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Move\UI_Move_02		192064
 	839798854	Bullet_04	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Bullet_04_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\Bullets\Bullet_04		61504
 	844964365	Pickup_01	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Pickup\Pickup_01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Pickup\Pickup_01		345668
 	846405516	CoeurHit_01	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\CoeurHit\CoeurHit_01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\CoeurHit\CoeurHit_01		176704
+	849972552	UI_Move_03	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\UI_Move_03_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Move\UI_Move_03		192064
 	853614464	Hit_05	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\NormalHit\Hit_05_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\NormalHit\Hit_05		307264
 	856376613	Shot_Drop_05	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Shot_Drop_05_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Drop\Shot_Drop_05		291444
 	867776948	Bullet_01	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Bullet_01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\Bullets\Bullet_01		61504
@@ -102,6 +114,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	967551366	Shot_Bow_04	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Bow\Shot_Bow_04_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Bow\Shot_Bow_04		291904
 	977800440	Death_02	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Death_02_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Death\Death_02		307264
 	981944196	Hit_02	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\NormalHit\Hit_02_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\NormalHit\Hit_02		307264
+	989386248	UI_Move_01	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\UI_Move_01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Move\UI_Move_01		192064
 	1015131849	Shot_Gravel_01	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Gravel\Shot_Gravel_01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Gravel\Shot_Gravel_01		291904
 	1023921326	Shot_Pizz_03	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Pizz\Shot_Pizz_03_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Pizz\Shot_Pizz_03		291904
 	1024678382	Shot_Bow_02	D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\SFX\Bow\Shot_Bow_02_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pyus\Shots\Bow\Shot_Bow_02		291904
