@@ -8,10 +8,11 @@
 						<Action Name="" ID="{74B4BEF5-A5D2-46DB-BCDD-8ADF342F27F3}" ShortID="973828839">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="BGM" ID="{5ACDA276-DADC-4466-B668-AA29CFC48F60}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}"/>
+									<ObjectRef Name="MusicSwitch" ID="{D3C2499D-2599-482D-8AEC-9836A5E320A5}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

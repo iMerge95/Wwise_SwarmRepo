@@ -9,6 +9,11 @@
 			<ChildrenList>
 				<MusicPlaylistContainer Name="BGM" ID="{5ACDA276-DADC-4466-B668-AA29CFC48F60}" ShortID="39703185">
 					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-3</Value>
@@ -323,6 +328,474 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Erosion_Mus_Phase1" ID="{0E4B7336-6ED0-431A-8F75-06B792882870}" ShortID="355757183">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="68000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Erosion_Mus_Phase1" ID="{60BF2F61-9FA6-4B10-9EDC-22EE212B0C54}" ShortID="425823923">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{B5A1C30F-6C86-44B4-828F-BF5C3AD51093}" ShortID="68814138">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="ElectroFilter" ID="{52BE44C7-0095-4599-A5DC-F3817A66795E}" WorkUnitID="{7691F312-072F-41DF-87E6-0B4141493A89}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{5BFB98C7-AB43-40D2-B4AC-D63FD7352C80}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>2</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>7</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Erosion_Mus_Phase1" ID="{0EE06F74-9985-46FB-8AE9-D9EADB3047AB}" ShortID="788737687">
+													<Language>SFX</Language>
+													<AudioFile>Erosion_Mus_Phase1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{CCB8F1B0-28FA-44CF-AF9D-A5BD0DA0B5E4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{AE3BD098-FBC8-4B89-ABD4-3DF23861B3BE}">
+													<ClipList>
+														<MusicClip Name="Erosion_Mus_Phase1" ID="{6DF60907-6F63-41BA-BA8C-64AE6746FCFE}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="68000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Erosion_Mus_Phase1" ID="{0EE06F74-9985-46FB-8AE9-D9EADB3047AB}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Erosion_Mus_Phase1Corrupted" ID="{C9C0523E-C40E-4DFB-AAE0-004C635BB211}" ShortID="939808874">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{CCF11DBD-7A7D-4A8B-9956-D6E900D7241C}" ShortID="500514369">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="ElectroFilter" ID="{52BE44C7-0095-4599-A5DC-F3817A66795E}" WorkUnitID="{7691F312-072F-41DF-87E6-0B4141493A89}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{CDE781E8-89EF-4C19-9DD2-AF9B42F09D8E}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>2</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>7</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Erosion_Mus_Phase1Corrupted" ID="{823ABE52-5FA5-4A34-AA93-5D18D59B0563}" ShortID="581333371">
+													<Language>SFX</Language>
+													<AudioFile>Erosion_Mus_Phase1Corrupted.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{015D4A09-1AD2-408E-8744-5805F0BA67B8}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{53ED4227-DD5C-4379-AB71-4FC1701F3409}">
+													<ClipList>
+														<MusicClip Name="Erosion_Mus_Phase1Corrupted" ID="{12B9AE40-5FEA-40E5-98A5-510CDE461593}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="68000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Erosion_Mus_Phase1Corrupted" ID="{823ABE52-5FA5-4A34-AA93-5D18D59B0563}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{839DB3D6-ACF0-499A-927B-51E6D16CDB6A}"/>
+										<MusicCue Name="Exit Cue" ID="{CA4CFFFE-F007-4E7E-B30B-818D63D9CD83}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="64000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Erosion_Mus_Phase1Trans" ID="{224AA10E-06DD-40B0-B8E3-E359C77FA938}" ShortID="108722412">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="68000.0000000001"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Erosion_Mus_Phase1" ID="{D95763C1-990F-4E51-B44F-F1AE2B5B553D}" ShortID="1053029387">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{B104BC3D-19D8-4974-AD61-7E855F9100DF}" ShortID="897258234">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="ElectroFilter" ID="{52BE44C7-0095-4599-A5DC-F3817A66795E}" WorkUnitID="{7691F312-072F-41DF-87E6-0B4141493A89}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{B0502073-D72A-47AB-9678-FB65FE8867E7}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>2</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>7</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Erosion_Mus_Phase1" ID="{1C2658E9-F3CD-4B22-B751-D9A65AB451F6}" ShortID="559022611">
+													<Language>SFX</Language>
+													<AudioFile>Erosion_Mus_Phase1.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="788737687"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2BF5D5C1-04E3-4169-97FA-CAD1F75F1746}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{AAE6992C-5C86-486D-9EBC-6D0A64FA714C}">
+													<ClipList>
+														<MusicClip Name="Erosion_Mus_Phase1" ID="{A8741FCA-FCB7-4355-A732-A888F294A34F}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="60000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="68000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-60000"/>
+															</PropertyList>
+															<AudioSourceRef Name="Erosion_Mus_Phase1" ID="{1C2658E9-F3CD-4B22-B751-D9A65AB451F6}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{4ED9B561-3FA0-4A3A-B60C-C74CDF75EEBB}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{197C9635-132C-4389-80B2-106545964EE6}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{D033B45C-8509-4012-BDA8-DE05C0006153}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Erosion_Mus_Phase1Corrupted" ID="{ABDCFC80-CBAD-4015-9863-3B132738A8EC}" ShortID="236150104">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{2E694D0D-17DA-4939-83A8-EE0FE67C40B3}" ShortID="120217288">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="ElectroFilter" ID="{52BE44C7-0095-4599-A5DC-F3817A66795E}" WorkUnitID="{7691F312-072F-41DF-87E6-0B4141493A89}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{59D14DE4-D96C-40BA-9C90-09F4510C562E}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>2</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>7</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Erosion_Mus_Phase1Corrupted" ID="{5A381255-504C-48B7-9D03-9B64F60CE94E}" ShortID="701839276">
+													<Language>SFX</Language>
+													<AudioFile>Erosion_Mus_Phase1Corrupted.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="581333371"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{03FF832B-DEF0-429F-945F-E1E0678C0D09}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{07045882-E124-4C22-AFC3-9AEA94E1D5D8}">
+													<ClipList>
+														<MusicClip Name="Erosion_Mus_Phase1Corrupted" ID="{9EB0361A-13ED-4592-8F7D-F9D63C2C93AD}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="60000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="68000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-60000"/>
+															</PropertyList>
+															<AudioSourceRef Name="Erosion_Mus_Phase1Corrupted" ID="{5A381255-504C-48B7-9D03-9B64F60CE94E}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{724331EB-A69F-43CA-9436-C1BFA284171A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{9617954A-0B86-439B-804E-08B9E6CD6183}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{9A1A4C52-A0AA-4943-8E21-BBB3BAC334A9}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{ECE83B9B-1623-4391-B442-D69ED90700F2}"/>
+										<MusicCue Name="Exit Cue" ID="{180213C3-D774-4B17-A532-BCE94B6BE8D8}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="4000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{9F14F25C-E940-4D7D-A2F0-7199E5F122D9}">
 									<PropertyList>
@@ -337,7 +810,17 @@
 								</MusicTransition>
 							</TransitionList>
 							<Playlist>
-								<MusicPlaylistItem Name="" ID="{1CA4B806-CF8A-47D0-8F79-FB4B1BD42759}" ShortID="374613327"/>
+								<MusicPlaylistItem Name="" ID="{1CA4B806-CF8A-47D0-8F79-FB4B1BD42759}" ShortID="374613327">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{E1C6991F-9272-4667-BA79-F673A6D7BFDE}" ShortID="329496328">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Erosion_Mus_Phase1" ID="{0E4B7336-6ED0-431A-8F75-06B792882870}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="musicPhase2" ID="{ACC1ABC3-E9E0-483C-B6F8-65E4B18C1E82}" ShortID="427799560">
@@ -349,6 +832,474 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Erosion_Mus_Phase2" ID="{25C3B24D-248F-49E9-81E2-1AC4F681F8E6}" ShortID="200579338">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="68000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Erosion_Mus_Phase2" ID="{C51F30A8-5D17-4535-AE00-1CCFD94E3763}" ShortID="771903189">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{9058472F-E123-4010-ABC2-CBFCF18A3ABC}" ShortID="685288406">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="ElectroFilter" ID="{52BE44C7-0095-4599-A5DC-F3817A66795E}" WorkUnitID="{7691F312-072F-41DF-87E6-0B4141493A89}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{73BCCA61-B7E4-46A2-A407-460940193D7B}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>2</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>7</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Erosion_Mus_Phase2" ID="{DC67EE4A-AF23-4FDB-AFBD-CAE2968E8DD8}" ShortID="156207026">
+													<Language>SFX</Language>
+													<AudioFile>Erosion_Mus_Phase2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{8BB4838B-57D2-4BFE-96EE-BEE2B01DF161}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{7CD259C1-5F78-46A0-B9E2-9C930C87DE4E}">
+													<ClipList>
+														<MusicClip Name="Erosion_Mus_Phase2" ID="{760DCFF2-87FF-4259-84D4-9A1E130F3E31}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="68000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Erosion_Mus_Phase2" ID="{DC67EE4A-AF23-4FDB-AFBD-CAE2968E8DD8}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Erosion_Mus_Phase2Corrupted" ID="{9EA9F1AD-EDD8-4DAA-9A68-BE267B7F2A6A}" ShortID="288561335">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{2EA3CF94-A18E-4623-BB60-6D18347A109A}" ShortID="297105058">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="ElectroFilter" ID="{52BE44C7-0095-4599-A5DC-F3817A66795E}" WorkUnitID="{7691F312-072F-41DF-87E6-0B4141493A89}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{4377BA19-3BF4-402C-845A-1D03FA21F620}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>2</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>7</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Erosion_Mus_Phase2Corrupted" ID="{EF3EA52D-C1F1-4D8A-901F-A12CA55C7022}" ShortID="202541797">
+													<Language>SFX</Language>
+													<AudioFile>Erosion_Mus_Phase2Corrupted.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{5E809059-41CF-4BA1-A5AF-D106D84386CC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{B3515094-E0A3-4F9D-96BB-34F83A4A1C5A}">
+													<ClipList>
+														<MusicClip Name="Erosion_Mus_Phase2Corrupted" ID="{F5BDED20-5F20-4F8D-A7F4-4BBA8A527262}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="68000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Erosion_Mus_Phase2Corrupted" ID="{EF3EA52D-C1F1-4D8A-901F-A12CA55C7022}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{C05C0910-F3CD-45A3-AC08-5014E13EBBBF}"/>
+										<MusicCue Name="Exit Cue" ID="{120C9791-7D9E-478C-AC16-E1EFF056E260}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="64000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Erosion_Mus_Phase2Trans" ID="{E4AC92B8-9F35-42A2-AB68-8B3980DC623D}" ShortID="819375715">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="68000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Erosion_Mus_Phase2" ID="{28CC8AFD-1375-4DDA-A024-2205DE74B1F2}" ShortID="539055100">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{FA155549-8CFA-4EF6-AA34-A4F0745A8C20}" ShortID="718147921">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="ElectroFilter" ID="{52BE44C7-0095-4599-A5DC-F3817A66795E}" WorkUnitID="{7691F312-072F-41DF-87E6-0B4141493A89}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{ED4FC726-4915-42B2-8579-AB201E61F6F7}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>2</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>7</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Erosion_Mus_Phase2" ID="{0B8DABB5-D8F4-497F-9F16-150867C74BA4}" ShortID="30076263">
+													<Language>SFX</Language>
+													<AudioFile>Erosion_Mus_Phase2.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="156207026"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{745BCC7C-EF17-4C9D-B533-933F1F69D888}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{6EF52647-FC63-4192-8457-B579D228DB7E}">
+													<ClipList>
+														<MusicClip Name="Erosion_Mus_Phase2" ID="{9C0A461E-E3BA-4913-B673-4B0197D4EC8D}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="60000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="68000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-60000"/>
+															</PropertyList>
+															<AudioSourceRef Name="Erosion_Mus_Phase2" ID="{0B8DABB5-D8F4-497F-9F16-150867C74BA4}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{609FAB29-F0D2-4172-910B-9D7B7F7C98C2}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{1EFF0515-6A5C-49E3-A306-3CE3D589A74A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{F689B1CE-515B-42AD-9C1F-244112E49556}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Erosion_Mus_Phase2Corrupted" ID="{A80DD31C-D18C-4BA7-AEE9-7A6F372F8167}" ShortID="534992966">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{6A211FFD-947E-4136-88DE-C47BE9EEF289}" ShortID="551063932">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="ElectroFilter" ID="{52BE44C7-0095-4599-A5DC-F3817A66795E}" WorkUnitID="{7691F312-072F-41DF-87E6-0B4141493A89}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{A4BEFE31-2901-459D-B16A-2F8AD35C3F9F}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>2</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>7</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Erosion_Mus_Phase2Corrupted" ID="{A1758F52-AE68-4BDE-A643-ADEB2FF42BA7}" ShortID="615176790">
+													<Language>SFX</Language>
+													<AudioFile>Erosion_Mus_Phase2Corrupted.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="202541797"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{199F4218-D404-4836-A313-9CEF6D87501D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{B416D31A-F70D-4604-A322-985735582687}">
+													<ClipList>
+														<MusicClip Name="Erosion_Mus_Phase2Corrupted" ID="{1FFE5C2A-738E-46B8-8629-5F0614E882FF}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="60000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="68000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-60000"/>
+															</PropertyList>
+															<AudioSourceRef Name="Erosion_Mus_Phase2Corrupted" ID="{A1758F52-AE68-4BDE-A643-ADEB2FF42BA7}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{7FFC2527-4CDA-4727-B442-1139239428A2}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{ED3D9E5B-9B57-4577-95F6-ADD449E386FD}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{FA8ED8A3-2DAF-46C6-AD71-816D71964CF7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{955D43DB-A6D4-4C3E-8FA6-94C0FB64C961}"/>
+										<MusicCue Name="Exit Cue" ID="{29ABAABC-216C-4F88-9CCD-0BECA81DE7BA}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="4000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{D64C54F9-7003-4B88-AAC3-64CD68DA06F9}">
 									<PropertyList>
@@ -363,7 +1314,17 @@
 								</MusicTransition>
 							</TransitionList>
 							<Playlist>
-								<MusicPlaylistItem Name="" ID="{6152F842-BBC2-43CA-A4DC-90FBDAF189A8}" ShortID="801826722"/>
+								<MusicPlaylistItem Name="" ID="{6152F842-BBC2-43CA-A4DC-90FBDAF189A8}" ShortID="801826722">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{8B035E27-D80C-4DC2-AAA1-7F8BE6C7FFE6}" ShortID="256221569">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Erosion_Mus_Phase2" ID="{25C3B24D-248F-49E9-81E2-1AC4F681F8E6}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="musicPhase3" ID="{91053E64-FE23-41FC-B7A0-FAB042AD3D5C}" ShortID="555108038">
@@ -375,6 +1336,474 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Erosion_Mus_Phase3" ID="{8263EB14-D7C1-495D-8634-9135B80F77F6}" ShortID="979096491">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="68000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Erosion_Mus_Phase3" ID="{7B7B45BA-99E2-49C2-BF0B-CEA9756E2269}" ShortID="326559005">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{B78ADD55-D507-482A-BCD6-AA09000F867D}" ShortID="179145930">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="ElectroFilter" ID="{52BE44C7-0095-4599-A5DC-F3817A66795E}" WorkUnitID="{7691F312-072F-41DF-87E6-0B4141493A89}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{60F81A26-E97F-4CD2-B194-8904CD60C173}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>2</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>7</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Erosion_Mus_Phase3" ID="{A0884087-6197-4889-84C4-E354BF219881}" ShortID="39859694">
+													<Language>SFX</Language>
+													<AudioFile>Erosion_Mus_Phase3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{4AEA1D56-1AF5-4C3F-AB90-26D4C3A2F51C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{4FB3EED2-6BB2-46E2-AE58-3ED75A75BC3A}">
+													<ClipList>
+														<MusicClip Name="Erosion_Mus_Phase3" ID="{88974656-38FA-4126-99A7-48D9E79699AF}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="68000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Erosion_Mus_Phase3" ID="{A0884087-6197-4889-84C4-E354BF219881}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Erosion_Mus_Phase3Corrupted" ID="{0FDE427D-ACE7-4D37-AEAC-1381A43FA8B5}" ShortID="151578063">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{85D1E31D-D931-4080-AD05-0563877BEEDF}" ShortID="943902038">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="ElectroFilter" ID="{52BE44C7-0095-4599-A5DC-F3817A66795E}" WorkUnitID="{7691F312-072F-41DF-87E6-0B4141493A89}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{3D4AE299-180D-4E75-B839-782816304FA9}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>2</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>7</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Erosion_Mus_Phase3Corrupted" ID="{B7AF716B-9824-444F-B7B1-62BBD8AF4124}" ShortID="623449883">
+													<Language>SFX</Language>
+													<AudioFile>Erosion_Mus_Phase3Corrupted.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{505FF6DF-67D7-47BF-A7AC-170B757A5D14}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{7CA69FDC-33B9-4C19-9479-0D596F8323AD}">
+													<ClipList>
+														<MusicClip Name="Erosion_Mus_Phase3Corrupted" ID="{987EAE9B-7E04-4E91-AD1B-05FBAECC8E0E}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="68000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Erosion_Mus_Phase3Corrupted" ID="{B7AF716B-9824-444F-B7B1-62BBD8AF4124}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{C1A57A46-6F83-4389-89F7-602392AF1C35}"/>
+										<MusicCue Name="Exit Cue" ID="{5F85A502-6991-4829-B354-DDEFF4BB4366}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="64000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Erosion_Mus_Phase3Trans" ID="{521E9A1F-F058-4EAB-A3B2-33E19334FAB9}" ShortID="808017246">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="74245.6946039036"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Erosion_Mus_Phase3" ID="{4B030AE4-0523-4BB8-8979-79B2D7CE2BB3}" ShortID="509065201">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{A6E97FD5-58A1-40A3-BD27-24AE58140703}" ShortID="792748401">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="ElectroFilter" ID="{52BE44C7-0095-4599-A5DC-F3817A66795E}" WorkUnitID="{7691F312-072F-41DF-87E6-0B4141493A89}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{A75A5CFF-895F-44DE-9D12-4CA014312E04}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>2</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>7</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Erosion_Mus_Phase3" ID="{1DF20C9B-754C-4372-AE6A-68CE06EFA3EE}" ShortID="872622537">
+													<Language>SFX</Language>
+													<AudioFile>Erosion_Mus_Phase3.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="39859694"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{A1A96364-F4FA-4468-A9E0-15CE902F233A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{7A9C5E02-58B9-4899-83C8-8B5FC492D747}">
+													<ClipList>
+														<MusicClip Name="Erosion_Mus_Phase3" ID="{45126BAE-C520-47D6-A29F-208780D94AF3}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="60000.0000000001"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="68000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-60000.0000000001"/>
+															</PropertyList>
+															<AudioSourceRef Name="Erosion_Mus_Phase3" ID="{1DF20C9B-754C-4372-AE6A-68CE06EFA3EE}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{D4448442-53A8-4ECB-B035-1188137EA8E0}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{E1814EEB-A6B4-4A03-B93A-C43A255B5EEA}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{FDD113CD-6B7E-4FC5-8794-FAC99276C5C1}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Erosion_Mus_Phase3Corrupted" ID="{7846E4BA-7DBF-42D1-8ECE-AC2DFC90D336}" ShortID="10869086">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{788F5CF6-C537-43D2-B316-EAE20A975BA5}" ShortID="838033526">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="ElectroFilter" ID="{52BE44C7-0095-4599-A5DC-F3817A66795E}" WorkUnitID="{7691F312-072F-41DF-87E6-0B4141493A89}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{FB1F9650-6767-4D33-9481-4A3F4314CAD2}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>2</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>7</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Erosion_Mus_Phase3Corrupted" ID="{92858418-41BC-45D2-869D-3495750886A6}" ShortID="652089330">
+													<Language>SFX</Language>
+													<AudioFile>Erosion_Mus_Phase3Corrupted.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="623449883"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{25CCBD7E-99D2-48BC-B1BE-B1EB4BDECF0C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{EA441716-AEDF-4491-B6DE-FC39A1555C94}">
+													<ClipList>
+														<MusicClip Name="Erosion_Mus_Phase3Corrupted" ID="{7FF434F3-BD5F-42B2-971D-B587745D6526}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="60000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="68000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-60000"/>
+															</PropertyList>
+															<AudioSourceRef Name="Erosion_Mus_Phase3Corrupted" ID="{92858418-41BC-45D2-869D-3495750886A6}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{964EB458-EED7-4CD4-8E0A-5CFC2BCC98D1}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{26B31512-85EA-4A29-A9CE-096CD3B978BC}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{876CBCF1-D87A-41F2-8E24-17C01B18C256}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{264C02B6-378F-4E61-B12E-C0D441B7AEA7}"/>
+										<MusicCue Name="Exit Cue" ID="{9E807A89-12B1-4309-A0C4-FB2879179C40}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="4000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{47B2D159-D923-46A2-8C3E-86E4D727460B}">
 									<PropertyList>
@@ -389,7 +1818,345 @@
 								</MusicTransition>
 							</TransitionList>
 							<Playlist>
-								<MusicPlaylistItem Name="" ID="{4A4FC6FB-2B7F-4CB7-B296-D0F475A2E12D}" ShortID="74338338"/>
+								<MusicPlaylistItem Name="" ID="{4A4FC6FB-2B7F-4CB7-B296-D0F475A2E12D}" ShortID="74338338">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{123418F6-AD76-45E6-BC7D-74407B5995AB}" ShortID="810502826">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Erosion_Mus_Phase3" ID="{8263EB14-D7C1-495D-8634-9135B80F77F6}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="musicIntro" ID="{7BD237A9-CC60-4870-A7F2-D6F09346CF5C}" ShortID="653230312">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Erosion_Mus_Intro" ID="{662F1761-4319-4543-A352-E949D2AA4259}" ShortID="340236115">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="20000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Erosion_Mus_Intro" ID="{6981A271-F186-46CE-A41B-F99FFF45D5C6}" ShortID="188838637">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Erosion_Mus_Intro" ID="{7EF88A85-1C41-4EBB-BEE6-18D383911422}" ShortID="315978292">
+													<Language>SFX</Language>
+													<AudioFile>Erosion_Mus_Intro.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{A4990A13-E381-4B86-A8A6-C6F91BDD70C3}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{C182FD66-29B7-4BE6-A2E8-43EEB8EE96D4}">
+													<ClipList>
+														<MusicClip Name="Erosion_Mus_Intro" ID="{C6712802-CA80-4AA4-AEF6-93B62F433969}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="20000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Erosion_Mus_Intro" ID="{7EF88A85-1C41-4EBB-BEE6-18D383911422}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{9E0C35BD-6BEC-46E1-ADB9-FC240BD5854C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>20</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{E891CED5-EFA8-4AD2-BD42-3B90E94227B1}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>20</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{3261FDB0-0FE1-4EE0-B3C2-CA17D30332C1}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>20</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{5656001E-F4FE-4941-8EB0-CEAA9FFDBC20}"/>
+										<MusicCue Name="Exit Cue" ID="{5BC7C0AF-4E9C-4177-AF77-0D330A7A6323}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="16000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{E88B0639-3587-4D05-AE7B-BB74FC54DD57}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{E834C578-A760-4736-98C6-455313E92E10}">
+											<TransitionInfo>
+												<TransitionObjectRef Name="Erosion_Mus_Intro" ID="{662F1761-4319-4543-A352-E949D2AA4259}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}"/>
+											</TransitionInfo>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{773A5576-B1D8-4ADD-B2DC-AC02A35AAC78}" ShortID="718709014">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{838350CF-D146-495D-9059-1E06D63218A0}" ShortID="699230052">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Erosion_Mus_Intro" ID="{662F1761-4319-4543-A352-E949D2AA4259}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="musicOutro" ID="{A09EAD9A-1D5B-4608-A77D-121D26D41161}" ShortID="1040526127">
+							<PropertyList>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Erosion_Mus_Outro" ID="{2DB672FF-1956-4EC9-A204-6C26265500D5}" ShortID="279421514">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="23500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Erosion_Mus_Outro" ID="{A05F541A-6D25-4175-AE43-C19222DAB7A3}" ShortID="936355452">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Erosion_Mus_Outro" ID="{6A214E1D-FA10-465B-A7A8-0BC9EFAEFF96}" ShortID="474719617">
+													<Language>SFX</Language>
+													<AudioFile>Erosion_Mus_Outro.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{94547F78-E513-40B9-807E-9B92FB9F171B}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{7F77B534-D38C-4C7B-8847-1A339E3380CF}">
+													<ClipList>
+														<MusicClip Name="Erosion_Mus_Outro" ID="{8C62CB23-5CE4-4A06-8D4A-3791B47936A0}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="22000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Erosion_Mus_Outro" ID="{6A214E1D-FA10-465B-A7A8-0BC9EFAEFF96}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{2E2F82DD-3673-4BA5-B6B0-C37CA7562F3F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>22</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{C2C6BC4F-C203-4FF8-9157-2D93C36E0E33}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>22</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{961D9AE0-4ED3-4B8B-AC3A-E6958CC3E4D0}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>22</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{781F8054-6872-497B-BD8E-411F6BFDC879}"/>
+										<MusicCue Name="Exit Cue" ID="{D0DCEECC-7D4B-42A7-9CE8-698AFA4417A1}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="22000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{098B6993-2905-4ADE-84F9-21BF1AE7D799}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{EDE50927-066D-4447-B638-21B12C1C031B}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{0EBCE465-12BD-4AFA-83D7-58F5E68B6157}" ShortID="775782688">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{02AC18AF-5E10-4D49-8CF1-5C91F5441C0F}" ShortID="734681328">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Erosion_Mus_Outro" ID="{2DB672FF-1956-4EC9-A204-6C26265500D5}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
 					</ChildrenList>
@@ -401,33 +2168,146 @@
 							<ChildrenList>
 								<MusicTransition Name="Transition" ID="{BA65260A-B533-4BC1-8E61-708845CA2DCF}">
 									<PropertyList>
+										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 										<Property Name="ExitSourceAt" Type="int16" Value="1"/>
 										<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+										<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
 										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
 									</PropertyList>
 									<TransitionInfo>
 										<SourceFadeOut>
 											<MusicFade Name="Source Fade-out" ID="{B90BE618-9FE3-4770-992E-3B6BE84EF073}">
 												<PropertyList>
-													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeOffset" Type="Real64" Value="2"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>
 											</MusicFade>
 										</SourceFadeOut>
 									</TransitionInfo>
 								</MusicTransition>
-								<MusicTransition Name="Transition" ID="{10F4B58C-7F25-4001-8E6F-F6145ED3785B}">
+								<MusicTransition Name="Transition" ID="{348FB2CF-E556-448A-88B0-2D0577827CC5}">
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
-										<Property Name="SourceContextType" Type="int16" Value="1"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="1"/>
+										<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+										<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="musicPhase2" ID="{ACC1ABC3-E9E0-483C-B6F8-65E4B18C1E82}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
 											<ObjectRef Name="musicPhase1" ID="{42A7CBF6-4AE3-45A1-9366-626D21806881}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}"/>
 										</Reference>
 									</ReferenceList>
-									<TransitionInfo/>
+									<TransitionInfo>
+										<TransitionObjectRef Name="Erosion_Mus_Phase1Trans" ID="{224AA10E-06DD-40B0-B8E3-E359C77FA938}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}"/>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{67C57F1E-89CF-4DE5-85AA-E159F11EAC0A}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="2"/>
+													<Property Name="FadeOffset" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<TransitionFadeIn>
+											<MusicFade Name="Transition Fade-in" ID="{D0B8C726-174E-4B11-8E4E-352AF75A54D6}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="2"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</TransitionFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{F3E3FA36-7322-4B59-96BB-53544D5D1D02}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="1"/>
+										<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+										<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="musicPhase3" ID="{91053E64-FE23-41FC-B7A0-FAB042AD3D5C}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="musicPhase2" ID="{ACC1ABC3-E9E0-483C-B6F8-65E4B18C1E82}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="Erosion_Mus_Phase2Trans" ID="{E4AC92B8-9F35-42A2-AB68-8B3980DC623D}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}"/>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{8D67D587-E51B-4293-863B-A90626F49EA0}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="2"/>
+													<Property Name="FadeOffset" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<TransitionFadeIn>
+											<MusicFade Name="Transition Fade-in" ID="{88E71FB1-38AD-4A60-819A-4D40555ED0E3}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="2"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</TransitionFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{423A02E3-6DA7-477A-9A46-94522AC25CFD}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="1"/>
+										<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+										<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="musicOutro" ID="{A09EAD9A-1D5B-4608-A77D-121D26D41161}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="musicPhase3" ID="{91053E64-FE23-41FC-B7A0-FAB042AD3D5C}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="Erosion_Mus_Phase3Trans" ID="{521E9A1F-F058-4EAB-A3B2-33E19334FAB9}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}"/>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{35295924-6162-4C47-A4C9-D0D354BFE141}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="2"/>
+													<Property Name="FadeOffset" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<TransitionFadeIn>
+											<MusicFade Name="Transition Fade-in" ID="{4515C1E3-5E4D-4444-B38B-6F12555282F7}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="2"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+												</PropertyList>
+											</MusicFade>
+										</TransitionFadeIn>
+									</TransitionInfo>
 								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
@@ -437,14 +2317,6 @@
 						<ArgumentRef Name="BossPhase" ID="{DB6212D9-D966-437C-8AB1-C75398EE09BD}"/>
 					</ArgumentList>
 					<EntryList>
-						<Entry>
-							<Path>
-								<PathElementRef Name="Phase1" ID="{5D14D911-FA47-465E-A0FA-4F98EDBDD7E7}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="musicPhase1" ID="{42A7CBF6-4AE3-45A1-9366-626D21806881}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
 						<Entry>
 							<Path>
 								<PathElementRef Name="Phase2" ID="{7758A1B6-8638-4293-985F-C16B03D8D235}"/>
@@ -461,421 +2333,40 @@
 								<AudioNodeRef Name="musicPhase3" ID="{91053E64-FE23-41FC-B7A0-FAB042AD3D5C}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Intro" ID="{044557DE-43FD-4643-8496-9BEB19B03EF4}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="musicIntro" ID="{7BD237A9-CC60-4870-A7F2-D6F09346CF5C}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Outro" ID="{3F2A60D1-F8D9-4A1C-A2BE-3EA1FF26E825}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="musicOutro" ID="{A09EAD9A-1D5B-4608-A77D-121D26D41161}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="None" ID="{A56883E3-4C9B-4049-9521-FAFB95248730}"/>
+							</Path>
+							<AudioNodeInfo>
+								<NoObject Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Phase1" ID="{5D14D911-FA47-465E-A0FA-4F98EDBDD7E7}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="musicPhase1" ID="{42A7CBF6-4AE3-45A1-9366-626D21806881}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
-				<Folder Name="Mus" ID="{50E45DD3-6437-4592-83FB-8BDA1AFE47FE}" ShortID="338639446">
-					<ChildrenList>
-						<MusicSegment Name="Erosion_Mus_Intro" ID="{662F1761-4319-4543-A352-E949D2AA4259}" ShortID="340236115">
-							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="20000"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MusicTrack Name="Erosion_Mus_Intro" ID="{6981A271-F186-46CE-A41B-F99FFF45D5C6}" ShortID="188838637">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Erosion_Mus_Intro" ID="{7EF88A85-1C41-4EBB-BEE6-18D383911422}" ShortID="315978292">
-											<Language>SFX</Language>
-											<AudioFile>Erosion_Mus_Intro.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{A4990A13-E381-4B86-A8A6-C6F91BDD70C3}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{C182FD66-29B7-4BE6-A2E8-43EEB8EE96D4}">
-											<ClipList>
-												<MusicClip Name="Erosion_Mus_Intro" ID="{C6712802-CA80-4AA4-AEF6-93B62F433969}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="20000"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="Erosion_Mus_Intro" ID="{7EF88A85-1C41-4EBB-BEE6-18D383911422}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-							</ChildrenList>
-							<CueList>
-								<MusicCue Name="Entry Cue" ID="{5656001E-F4FE-4941-8EB0-CEAA9FFDBC20}"/>
-								<MusicCue Name="Exit Cue" ID="{5BC7C0AF-4E9C-4177-AF77-0D330A7A6323}">
-									<PropertyList>
-										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="20000"/>
-									</PropertyList>
-								</MusicCue>
-							</CueList>
-						</MusicSegment>
-						<MusicSegment Name="Erosion_Mus_Outro" ID="{2DB672FF-1956-4EC9-A204-6C26265500D5}" ShortID="279421514">
-							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="22000"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MusicTrack Name="Erosion_Mus_Outro" ID="{A05F541A-6D25-4175-AE43-C19222DAB7A3}" ShortID="936355452">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Erosion_Mus_Outro" ID="{6A214E1D-FA10-465B-A7A8-0BC9EFAEFF96}" ShortID="474719617">
-											<Language>SFX</Language>
-											<AudioFile>Erosion_Mus_Outro.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{94547F78-E513-40B9-807E-9B92FB9F171B}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{7F77B534-D38C-4C7B-8847-1A339E3380CF}">
-											<ClipList>
-												<MusicClip Name="Erosion_Mus_Outro" ID="{8C62CB23-5CE4-4A06-8D4A-3791B47936A0}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="22000"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="Erosion_Mus_Outro" ID="{6A214E1D-FA10-465B-A7A8-0BC9EFAEFF96}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-							</ChildrenList>
-							<CueList>
-								<MusicCue Name="Entry Cue" ID="{781F8054-6872-497B-BD8E-411F6BFDC879}"/>
-								<MusicCue Name="Exit Cue" ID="{D0DCEECC-7D4B-42A7-9CE8-698AFA4417A1}">
-									<PropertyList>
-										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="22000"/>
-									</PropertyList>
-								</MusicCue>
-							</CueList>
-						</MusicSegment>
-						<MusicSegment Name="Erosion_Mus_Phase1" ID="{0E4B7336-6ED0-431A-8F75-06B792882870}" ShortID="355757183">
-							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="68000"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MusicTrack Name="Erosion_Mus_Phase1" ID="{60BF2F61-9FA6-4B10-9EDC-22EE212B0C54}" ShortID="425823923">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Erosion_Mus_Phase1" ID="{0EE06F74-9985-46FB-8AE9-D9EADB3047AB}" ShortID="788737687">
-											<Language>SFX</Language>
-											<AudioFile>Erosion_Mus_Phase1.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{CCB8F1B0-28FA-44CF-AF9D-A5BD0DA0B5E4}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{AE3BD098-FBC8-4B89-ABD4-3DF23861B3BE}">
-											<ClipList>
-												<MusicClip Name="Erosion_Mus_Phase1" ID="{6DF60907-6F63-41BA-BA8C-64AE6746FCFE}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="68000"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="Erosion_Mus_Phase1" ID="{0EE06F74-9985-46FB-8AE9-D9EADB3047AB}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-								<MusicTrack Name="Erosion_Mus_Phase1Corrupted" ID="{C9C0523E-C40E-4DFB-AAE0-004C635BB211}" ShortID="939808874">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Erosion_Mus_Phase1Corrupted" ID="{823ABE52-5FA5-4A34-AA93-5D18D59B0563}" ShortID="581333371">
-											<Language>SFX</Language>
-											<AudioFile>Erosion_Mus_Phase1Corrupted.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{015D4A09-1AD2-408E-8744-5805F0BA67B8}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{53ED4227-DD5C-4379-AB71-4FC1701F3409}">
-											<ClipList>
-												<MusicClip Name="Erosion_Mus_Phase1Corrupted" ID="{12B9AE40-5FEA-40E5-98A5-510CDE461593}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="68000"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="Erosion_Mus_Phase1Corrupted" ID="{823ABE52-5FA5-4A34-AA93-5D18D59B0563}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-							</ChildrenList>
-							<CueList>
-								<MusicCue Name="Entry Cue" ID="{839DB3D6-ACF0-499A-927B-51E6D16CDB6A}"/>
-								<MusicCue Name="Exit Cue" ID="{CA4CFFFE-F007-4E7E-B30B-818D63D9CD83}">
-									<PropertyList>
-										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="68000"/>
-									</PropertyList>
-								</MusicCue>
-							</CueList>
-						</MusicSegment>
-						<MusicSegment Name="Erosion_Mus_Phase2" ID="{25C3B24D-248F-49E9-81E2-1AC4F681F8E6}" ShortID="200579338">
-							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="68000"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MusicTrack Name="Erosion_Mus_Phase2" ID="{C51F30A8-5D17-4535-AE00-1CCFD94E3763}" ShortID="771903189">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Erosion_Mus_Phase2" ID="{DC67EE4A-AF23-4FDB-AFBD-CAE2968E8DD8}" ShortID="156207026">
-											<Language>SFX</Language>
-											<AudioFile>Erosion_Mus_Phase2.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{8BB4838B-57D2-4BFE-96EE-BEE2B01DF161}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{7CD259C1-5F78-46A0-B9E2-9C930C87DE4E}">
-											<ClipList>
-												<MusicClip Name="Erosion_Mus_Phase2" ID="{760DCFF2-87FF-4259-84D4-9A1E130F3E31}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="68000"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="Erosion_Mus_Phase2" ID="{DC67EE4A-AF23-4FDB-AFBD-CAE2968E8DD8}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-								<MusicTrack Name="Erosion_Mus_Phase2Corrupted" ID="{9EA9F1AD-EDD8-4DAA-9A68-BE267B7F2A6A}" ShortID="288561335">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Erosion_Mus_Phase2Corrupted" ID="{EF3EA52D-C1F1-4D8A-901F-A12CA55C7022}" ShortID="202541797">
-											<Language>SFX</Language>
-											<AudioFile>Erosion_Mus_Phase2Corrupted.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{5E809059-41CF-4BA1-A5AF-D106D84386CC}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{B3515094-E0A3-4F9D-96BB-34F83A4A1C5A}">
-											<ClipList>
-												<MusicClip Name="Erosion_Mus_Phase2Corrupted" ID="{F5BDED20-5F20-4F8D-A7F4-4BBA8A527262}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="68000"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="Erosion_Mus_Phase2Corrupted" ID="{EF3EA52D-C1F1-4D8A-901F-A12CA55C7022}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-							</ChildrenList>
-							<CueList>
-								<MusicCue Name="Entry Cue" ID="{C05C0910-F3CD-45A3-AC08-5014E13EBBBF}"/>
-								<MusicCue Name="Exit Cue" ID="{120C9791-7D9E-478C-AC16-E1EFF056E260}">
-									<PropertyList>
-										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="68000"/>
-									</PropertyList>
-								</MusicCue>
-							</CueList>
-						</MusicSegment>
-						<MusicSegment Name="Erosion_Mus_Phase3" ID="{8263EB14-D7C1-495D-8634-9135B80F77F6}" ShortID="979096491">
-							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="68000"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MusicTrack Name="Erosion_Mus_Phase3" ID="{7B7B45BA-99E2-49C2-BF0B-CEA9756E2269}" ShortID="326559005">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Erosion_Mus_Phase3" ID="{A0884087-6197-4889-84C4-E354BF219881}" ShortID="39859694">
-											<Language>SFX</Language>
-											<AudioFile>Erosion_Mus_Phase3.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{4AEA1D56-1AF5-4C3F-AB90-26D4C3A2F51C}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{4FB3EED2-6BB2-46E2-AE58-3ED75A75BC3A}">
-											<ClipList>
-												<MusicClip Name="Erosion_Mus_Phase3" ID="{88974656-38FA-4126-99A7-48D9E79699AF}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="68000"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="Erosion_Mus_Phase3" ID="{A0884087-6197-4889-84C4-E354BF219881}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-								<MusicTrack Name="Erosion_Mus_Phase3Corrupted" ID="{0FDE427D-ACE7-4D37-AEAC-1381A43FA8B5}" ShortID="151578063">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Erosion_Mus_Phase3Corrupted" ID="{B7AF716B-9824-444F-B7B1-62BBD8AF4124}" ShortID="623449883">
-											<Language>SFX</Language>
-											<AudioFile>Erosion_Mus_Phase3Corrupted.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{505FF6DF-67D7-47BF-A7AC-170B757A5D14}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{7CA69FDC-33B9-4C19-9479-0D596F8323AD}">
-											<ClipList>
-												<MusicClip Name="Erosion_Mus_Phase3Corrupted" ID="{987EAE9B-7E04-4E91-AD1B-05FBAECC8E0E}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="68000"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="Erosion_Mus_Phase3Corrupted" ID="{B7AF716B-9824-444F-B7B1-62BBD8AF4124}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-							</ChildrenList>
-							<CueList>
-								<MusicCue Name="Entry Cue" ID="{C1A57A46-6F83-4389-89F7-602392AF1C35}"/>
-								<MusicCue Name="Exit Cue" ID="{5F85A502-6991-4829-B354-DDEFF4BB4366}">
-									<PropertyList>
-										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="68000"/>
-									</PropertyList>
-								</MusicCue>
-							</CueList>
-						</MusicSegment>
-					</ChildrenList>
-				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

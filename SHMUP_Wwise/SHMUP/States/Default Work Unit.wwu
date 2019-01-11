@@ -9,6 +9,8 @@
 						<State Name="Phase1" ID="{5D14D911-FA47-465E-A0FA-4F98EDBDD7E7}"/>
 						<State Name="Phase2" ID="{7758A1B6-8638-4293-985F-C16B03D8D235}"/>
 						<State Name="Phase3" ID="{6A78EE28-F33C-4A56-81D8-742F58ACA09C}"/>
+						<State Name="Intro" ID="{044557DE-43FD-4643-8496-9BEB19B03EF4}"/>
+						<State Name="Outro" ID="{3F2A60D1-F8D9-4A1C-A2BE-3EA1FF26E825}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
