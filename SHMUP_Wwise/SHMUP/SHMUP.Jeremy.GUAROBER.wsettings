@@ -24,11 +24,15 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="bvEoU/NLGUqhtj638g//zA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="frU21BY3skWq62jB6qDpNw=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
+				<Property Name="Interactive Music\x64_{0E4B7336-6ED0-431A-8F75-06B792882870} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP+Lh4eHhYS1AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{0E800670-6C3F-47D8-826C-B5639D2056F4} - SegmentEditorZoomInfo" Type="string" Value="VVVVVVVV5T8AAAAAAADwP41aAznJXBFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{290093B8-0B1C-41D7-9BE0-B974F6943D40} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP41aAznJXBFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{4CDAC7D6-0BA7-4A56-98BB-D8399EE24FB6} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP+Lh4eHhYS1AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{8263EB14-D7C1-495D-8634-9135B80F77F6} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP+Lh4eHhYS1AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{9F1E3B0A-92DB-4E8E-9717-C069AF183D07} - SegmentEditorZoomInfo" Type="string" Value="HMdxHMdx3D8AAAAAAADwP41aAznJXBFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{C6F74E62-A87A-429C-9898-BB844FD1F3AB} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAEG9AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{D4CD6C64-43B1-4478-BA24-C5EB30E14400} - SegmentEditorZoomInfo" Type="string" Value="VVVVVVVV5T8AAAAAAADwP41aAznJXBFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{F220131C-6FE4-4791-8535-17466B9DAA49} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP+Lh4eHhYS1AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
