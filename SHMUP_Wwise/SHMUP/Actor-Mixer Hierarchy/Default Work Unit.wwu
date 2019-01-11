@@ -280,6 +280,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Death" ID="{99968EDA-E913-4E17-B57B-8F41009E2E8F}" ShortID="869674079">
 							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
 										<Value>5</Value>
@@ -1791,7 +1792,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>2</Value>
+										<Value>-3</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -2383,7 +2384,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>2</Value>
+										<Value>1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2777,6 +2778,13 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<ActorMixer Name="BossState" ID="{16FA1DB3-68A9-41B4-B194-8C1F0B675B32}" ShortID="1817296">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>

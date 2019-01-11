@@ -19,6 +19,11 @@
 						</AuxBus>
 						<Bus Name="Sfx" ID="{0C04D972-343A-4BCB-8CE0-6647669E9436}">
 							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<RTPCList>
 										<RTPC Name="" ID="{65412A3B-763D-422D-8BB3-CDAEE4B9B2E7}" ShortID="336164692">
@@ -58,11 +63,6 @@
 										<Value>-6</Value>
 									</ValueList>
 								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-8</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="UserAuxSend0">
@@ -88,6 +88,11 @@
 										<Value>3</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="UserAuxSend0">
@@ -97,6 +102,11 @@
 						</Bus>
 						<Bus Name="Music" ID="{5A09C79B-495A-4EAE-B9F4-E0549B2284C9}">
 							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<RTPCList>
 										<RTPC Name="" ID="{DDB1C0EE-C78C-48BE-B7E2-00FCC07B4B1E}" ShortID="1040760584">

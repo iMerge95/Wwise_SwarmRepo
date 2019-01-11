@@ -2170,7 +2170,7 @@
 									<PropertyList>
 										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
 										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-										<Property Name="ExitSourceAt" Type="int16" Value="1"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
 										<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 										<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
 										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
@@ -2192,7 +2192,7 @@
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
 										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-										<Property Name="ExitSourceAt" Type="int16" Value="1"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
 										<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 										<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
@@ -2232,7 +2232,7 @@
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
 										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-										<Property Name="ExitSourceAt" Type="int16" Value="1"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
 										<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 										<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
@@ -2272,7 +2272,7 @@
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
 										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-										<Property Name="ExitSourceAt" Type="int16" Value="1"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
 										<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 										<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
