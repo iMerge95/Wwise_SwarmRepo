@@ -19,11 +19,6 @@
 						</AuxBus>
 						<Bus Name="Sfx" ID="{0C04D972-343A-4BCB-8CE0-6647669E9436}">
 							<PropertyList>
-								<Property Name="BusVolume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<RTPCList>
 										<RTPC Name="" ID="{65412A3B-763D-422D-8BB3-CDAEE4B9B2E7}" ShortID="336164692">
@@ -63,8 +58,16 @@
 										<Value>-6</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="SFX_EQ" ID="{4684ADFA-A631-49FF-94EE-EA3E822B5AC8}" WorkUnitID="{75598BAF-B797-43F9-A5E9-0A4BE1DF3A6B}"/>
+								</Reference>
 								<Reference Name="UserAuxSend0">
 									<ObjectRef Name="Rev" ID="{65669E4C-136C-4A57-8D67-F379FD6D3AAD}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
 								</Reference>
@@ -90,7 +93,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -102,11 +105,6 @@
 						</Bus>
 						<Bus Name="Music" ID="{5A09C79B-495A-4EAE-B9F4-E0549B2284C9}">
 							<PropertyList>
-								<Property Name="BusVolume" Type="Real64">
-									<ValueList>
-										<Value>6</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<RTPCList>
 										<RTPC Name="" ID="{DDB1C0EE-C78C-48BE-B7E2-00FCC07B4B1E}" ShortID="1040760584">
@@ -141,7 +139,17 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="MUS_EQ" ID="{F817350F-C070-4D4E-9F8F-FB7AAC28F6E8}" WorkUnitID="{75598BAF-B797-43F9-A5E9-0A4BE1DF3A6B}"/>
+								</Reference>
+							</ReferenceList>
 						</Bus>
 						<Bus Name="UI" ID="{92C51CA8-4F73-4508-82E1-D3EE59D9966A}"/>
 					</ChildrenList>

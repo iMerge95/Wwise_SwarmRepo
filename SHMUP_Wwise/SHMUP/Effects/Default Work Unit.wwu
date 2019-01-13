@@ -45,6 +45,26 @@
 						</Property>
 					</PropertyList>
 				</Effect>
+				<Effect Name="SFX_EQ" ID="{4684ADFA-A631-49FF-94EE-EA3E822B5AC8}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="304"/>
+						<Property Name="GainBand1" Type="Real32" Value="-3"/>
+						<Property Name="GainBand2" Type="Real32" Value="-3"/>
+						<Property Name="GainBand3" Type="Real32" Value="3"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="1.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="MUS_EQ" ID="{F817350F-C070-4D4E-9F8F-FB7AAC28F6E8}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="648"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="1215"/>
+						<Property Name="GainBand1" Type="Real32" Value="-2"/>
+						<Property Name="GainBand2" Type="Real32" Value="3"/>
+						<Property Name="GainBand3" Type="Real32" Value="-3"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

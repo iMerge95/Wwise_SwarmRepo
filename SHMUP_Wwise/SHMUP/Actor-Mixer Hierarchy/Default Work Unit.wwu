@@ -6,8 +6,18 @@
 				<ActorMixer Name="AMB" ID="{09B8C7F7-D210-4B71-BED8-5C09FC639F13}" ShortID="608439904">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OutputBusLowpass" Type="int16">
+							<ValueList>
+								<Value>30</Value>
+							</ValueList>
+						</Property>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -23,12 +33,13 @@
 								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
-										<Value>1</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
@@ -169,7 +180,17 @@
 				<ActorMixer Name="Pyus" ID="{E6592BD7-573F-4035-98EA-80C46075FD25}" ShortID="539905060">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="16"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>30</Value>
+							</ValueList>
+						</Property>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -306,7 +327,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>-6</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -505,7 +526,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>-7</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -1563,7 +1584,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-14</Value>
+										<Value>-9</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -1937,7 +1958,7 @@
 								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
-										<Value>1</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Pitch" Type="int32">
@@ -1950,14 +1971,9 @@
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-								<Property Name="UseMaxSoundPerInstance" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-6</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -2017,6 +2033,7 @@
 									<PropertyList>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 									</PropertyList>
 									<ReferenceList>
@@ -2030,6 +2047,12 @@
 									<ChildrenList>
 										<Sound Name="Laser_Loop1" ID="{D02500A9-30B5-4250-A1CD-7183AEB9FF34}" ShortID="168006410">
 											<PropertyList>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -2042,6 +2065,11 @@
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -2067,6 +2095,12 @@
 										</Sound>
 										<Sound Name="Laser_Loop2" ID="{FB366FD2-F419-4E82-97DA-8A2F50FB25D2}" ShortID="498745738">
 											<PropertyList>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -2079,6 +2113,11 @@
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -2166,11 +2205,6 @@
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-								<Property Name="UseMaxSoundPerInstance" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-6</Value>
@@ -2271,6 +2305,12 @@
 									<ChildrenList>
 										<Sound Name="Cone_Loop1" ID="{36BD3FAF-7013-4BC1-84AC-952FFC42FEA2}" ShortID="55613993">
 											<PropertyList>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -2283,6 +2323,11 @@
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -2306,6 +2351,12 @@
 										<Sound Name="Cone_Loop2" ID="{99C69768-A1BD-4FDF-BAF2-E25FFD98A743}" ShortID="1000706165">
 											<PropertyList>
 												<Property Name="Color" Type="int16" Value="2"/>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -2318,6 +2369,11 @@
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -2473,14 +2529,9 @@
 										<Value>1</Value>
 									</ValueList>
 								</Property>
-								<Property Name="UseMaxSoundPerInstance" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2495,6 +2546,12 @@
 							<ChildrenList>
 								<Sound Name="Mortier_Out" ID="{C644203D-7C84-4D0B-B985-901A80F6C9FA}" ShortID="882106077">
 									<PropertyList>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -2508,9 +2565,19 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="UserAuxSendVolume0" Type="Real64">
 											<ValueList>
 												<Value>-9</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2538,6 +2605,12 @@
 								<Sound Name="Mortier_Loop1" ID="{B22386C4-4AE6-4E9A-9092-A88DD93B8470}" ShortID="511583459">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -2550,6 +2623,11 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
 										</Property>
 										<Property Name="UserAuxSendVolume0" Type="Real64">
 											<ValueList>
@@ -2805,11 +2883,6 @@
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
