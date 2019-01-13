@@ -58,11 +58,6 @@
 										<Value>-6</Value>
 									</ValueList>
 								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
@@ -89,11 +84,6 @@
 								<Property Name="UserAuxSendVolume0" Type="Real64">
 									<ValueList>
 										<Value>3</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -138,11 +128,6 @@
 											</Curve>
 										</RTPC>
 									</RTPCList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>6</Value>
-									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>

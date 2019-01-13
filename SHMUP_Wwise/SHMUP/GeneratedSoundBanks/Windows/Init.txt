@@ -3,10 +3,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	0	None	BossPhase			
-	494684172	Phase3Transition	BossPhase			
 	1125500713	Intro	BossPhase			
-	3266709961	Phase2Transition	BossPhase			
-	3519008002	Phase1Transition	BossPhase			
 	3630028968	Phase2	BossPhase			
 	3630028969	Phase3	BossPhase			
 	3630028971	Phase1	BossPhase			

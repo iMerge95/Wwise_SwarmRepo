@@ -347,6 +347,21 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_SFX" ID="{74A93BC1-00FF-4855-BC83-47E4CFDE2CA4}">
+					<ChildrenList>
+						<Action Name="" ID="{58744DE8-FEBB-405D-B973-1BAEDEB2FB96}" ShortID="256821269">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sfx" ID="{0C04D972-343A-4BCB-8CE0-6647669E9436}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

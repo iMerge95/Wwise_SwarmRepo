@@ -11,9 +11,6 @@
 						<State Name="Phase3" ID="{6A78EE28-F33C-4A56-81D8-742F58ACA09C}"/>
 						<State Name="Intro" ID="{044557DE-43FD-4643-8496-9BEB19B03EF4}"/>
 						<State Name="Outro" ID="{3F2A60D1-F8D9-4A1C-A2BE-3EA1FF26E825}"/>
-						<State Name="Phase1Transition" ID="{598DA6F3-552D-4BF6-8CAA-4E2DA14912C8}"/>
-						<State Name="Phase2Transition" ID="{EBBFC560-379A-4141-B3A9-CF5DF104BFA6}"/>
-						<State Name="Phase3Transition" ID="{E9F55D2E-CDAF-40F2-98D9-C41636640CA4}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

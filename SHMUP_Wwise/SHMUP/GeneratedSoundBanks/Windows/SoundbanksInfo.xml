@@ -145,7 +145,7 @@
 				</File>
 				<File Id="220159209" Language="SFX">
 					<ShortName>Laser_In.wav</ShortName>
-					<Path>SFX\Laser_In_1F72EA25.wem</Path>
+					<Path>SFX\Laser_In_DD581DCF.wem</Path>
 				</File>
 				<File Id="230960577" Language="SFX">
 					<ShortName>Bow\Shot_Bow_06.wav</ShortName>
@@ -197,7 +197,7 @@
 				</File>
 				<File Id="326855980" Language="SFX">
 					<ShortName>Cone_In.wav</ShortName>
-					<Path>SFX\Cone_In_1F72EA25.wem</Path>
+					<Path>SFX\Cone_In_0584011F.wem</Path>
 				</File>
 				<File Id="327436111" Language="SFX">
 					<ShortName>Bullet_08.wav</ShortName>
@@ -217,7 +217,7 @@
 				</File>
 				<File Id="371207202" Language="SFX">
 					<ShortName>Mortier_Out.wav</ShortName>
-					<Path>SFX\Mortier_Out_1F72EA25.wem</Path>
+					<Path>SFX\Mortier_Out_31ABCE36.wem</Path>
 				</File>
 				<File Id="381610256" Language="SFX">
 					<ShortName>Death_03.wav</ShortName>

@@ -15,7 +15,7 @@
 						<Property Name="OverrideOutput" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-4</Value>
+								<Value>-3</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -188,7 +188,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>3</Value>
+								<Value>1</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1584,7 +1584,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-7</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -1973,7 +1973,7 @@
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-5</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -1997,6 +1997,12 @@
 							<ChildrenList>
 								<Sound Name="Laser_In" ID="{FEAA9E83-EB10-4DE0-B5A9-EE2962FBD597}" ShortID="34246313">
 									<PropertyList>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -2021,6 +2027,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Laser_In" ID="{948ADA0D-D4DB-4939-9471-45A6040084A9}" ShortID="220159209">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.489473684210526"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.894736842105264"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Laser_In.wav</AudioFile>
 										</AudioFileSource>
@@ -2050,7 +2060,7 @@
 												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 												<Property Name="MaxSoundPerInstance" Type="int16">
 													<ValueList>
-														<Value>1</Value>
+														<Value>4</Value>
 													</ValueList>
 												</Property>
 												<Property Name="Pitch" Type="int32">
@@ -2065,11 +2075,6 @@
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
-												</Property>
-												<Property Name="UseMaxSoundPerInstance" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -2098,7 +2103,7 @@
 												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 												<Property Name="MaxSoundPerInstance" Type="int16">
 													<ValueList>
-														<Value>1</Value>
+														<Value>4</Value>
 													</ValueList>
 												</Property>
 												<Property Name="Pitch" Type="int32">
@@ -2113,11 +2118,6 @@
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
-												</Property>
-												<Property Name="UseMaxSoundPerInstance" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -2148,6 +2148,12 @@
 								</RandomSequenceContainer>
 								<Sound Name="Laser_Out" ID="{38EBC4B6-5A8F-410B-89D5-1A9148293C1B}" ShortID="614491236">
 									<PropertyList>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -2246,6 +2252,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Cone_In" ID="{849A02D4-F086-4E17-9636-D4D1F39E0D04}" ShortID="326855980">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.344298245614035"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.771929824561403"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Cone_In.wav</AudioFile>
 										</AudioFileSource>
@@ -2529,11 +2539,6 @@
 										<Value>1</Value>
 									</ValueList>
 								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2577,7 +2582,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>3</Value>
+												<Value>-3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2594,6 +2599,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Mortier_Out" ID="{DBB632AC-8D9A-4728-A00B-9C41FDB0E9BA}" ShortID="371207202">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.48465209247076"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.507020650584795"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Mortier_Out.wav</AudioFile>
 										</AudioFileSource>
