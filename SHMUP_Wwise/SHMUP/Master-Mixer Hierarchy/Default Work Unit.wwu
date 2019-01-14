@@ -19,6 +19,34 @@
 						</AuxBus>
 						<Bus Name="Sfx" ID="{0C04D972-343A-4BCB-8CE0-6647669E9436}">
 							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{A9906BAB-4087-47A2-BE51-79335FBA7AAC}" ShortID="428014427">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="VolumeSfx" ID="{8DA1442B-7FAC-4FD4-8CE2-D79B43F9CE4C}" WorkUnitID="{7691F312-072F-41DF-87E6-0B4141493A89}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{91B01539-54CB-43C0-955C-5D296B9C2446}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<RTPCList>
 										<RTPC Name="" ID="{65412A3B-763D-422D-8BB3-CDAEE4B9B2E7}" ShortID="336164692">
@@ -105,6 +133,34 @@
 						</Bus>
 						<Bus Name="Music" ID="{5A09C79B-495A-4EAE-B9F4-E0549B2284C9}">
 							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{EB113B24-FA15-4B01-8079-7ECB8F570392}" ShortID="297556776">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="VolumeMusic" ID="{A8EE8D0E-63A8-49BC-A68B-AC62190A2B61}" WorkUnitID="{7691F312-072F-41DF-87E6-0B4141493A89}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{56DFC091-3823-4E33-B1F5-075428EB7295}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<RTPCList>
 										<RTPC Name="" ID="{DDB1C0EE-C78C-48BE-B7E2-00FCC07B4B1E}" ShortID="1040760584">

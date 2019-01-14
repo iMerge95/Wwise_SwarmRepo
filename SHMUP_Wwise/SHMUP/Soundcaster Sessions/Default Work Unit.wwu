@@ -84,12 +84,20 @@
 							<Value>5.89</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="VolumeMusic" ID="{A8EE8D0E-63A8-49BC-A68B-AC62190A2B61}"/>
+							<Value>97</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="PyuNumber" ID="{40834A75-AE01-4BAD-BD25-F729BFB5FFAE}"/>
 							<Value>126</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeSfx" ID="{8DA1442B-7FAC-4FD4-8CE2-D79B43F9CE4C}"/>
+							<Value>100</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Outro" ID="{3F2A60D1-F8D9-4A1C-A2BE-3EA1FF26E825}"/>
+						<CurrentStateRef Name="Intro" ID="{044557DE-43FD-4643-8496-9BEB19B03EF4}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

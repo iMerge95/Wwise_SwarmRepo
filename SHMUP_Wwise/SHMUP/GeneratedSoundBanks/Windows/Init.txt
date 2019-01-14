@@ -10,7 +10,9 @@ State	ID	Name	State Group			Notes
 	4184794294	Outro	BossPhase			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	399092848	VolumeSfx			\Default Work Unit\VolumeSfx	
 	1131003326	PyuNumber			\Default Work Unit\PyuNumber	
+	3923584592	VolumeMusic			\Default Work Unit\VolumeMusic	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	Sfx			\Default Work Unit\Master Audio Bus\Sfx	

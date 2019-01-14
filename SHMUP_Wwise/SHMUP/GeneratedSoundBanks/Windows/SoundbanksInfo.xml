@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\</ProjectRoot>
-		<SourceFilesRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -56,6 +56,7 @@
 				<Event Id="1532176313" Name="Stop_Cone" ObjectPath="\Events\Default Work Unit\Stop_Cone"/>
 				<Event Id="738066393" Name="Stop_Laser" ObjectPath="\Events\Default Work Unit\Stop_Laser"/>
 				<Event Id="1370337034" Name="Stop_Mortier" ObjectPath="\Events\Default Work Unit\Stop_Mortier"/>
+				<Event Id="287728669" Name="Stop_SFX" ObjectPath="\Events\Default Work Unit\Stop_SFX" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="221349948"/>
