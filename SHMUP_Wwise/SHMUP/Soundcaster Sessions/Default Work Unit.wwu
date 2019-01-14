@@ -81,15 +81,15 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="ElectroFilter" ID="{52BE44C7-0095-4599-A5DC-F3817A66795E}"/>
-							<Value>4</Value>
+							<Value>5.89</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="PyuNumber" ID="{40834A75-AE01-4BAD-BD25-F729BFB5FFAE}"/>
-							<Value>25</Value>
+							<Value>126</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{A56883E3-4C9B-4049-9521-FAFB95248730}"/>
+						<CurrentStateRef Name="Outro" ID="{3F2A60D1-F8D9-4A1C-A2BE-3EA1FF26E825}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
