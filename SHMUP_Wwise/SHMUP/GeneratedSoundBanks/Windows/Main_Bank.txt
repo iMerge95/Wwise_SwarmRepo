@@ -14,6 +14,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1532176313	Stop_Cone			\Default Work Unit\Stop_Cone	
 	1822128376	Play_HardHit			\Default Work Unit\Play_HardHit	
 	2270376495	Play_Laser			\Default Work Unit\Play_Laser	
+	2837384057	Stop_Music			\Default Work Unit\Stop_Music	
 	2932040671	Play_Music			\Default Work Unit\Play_Music	
 	2959533290	Play_Amb			\Default Work Unit\Play_Amb	
 	3061091197	Play_Shots			\Default Work Unit\Play_Shots	

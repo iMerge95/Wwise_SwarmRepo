@@ -8,6 +8,14 @@
 			</PropertyList>
 			<ChildrenList>
 				<MusicSwitchContainer Name="MusicSwitch" ID="{D3C2499D-2599-482D-8AEC-9836A5E320A5}" ShortID="567431498">
+					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>

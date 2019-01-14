@@ -56,6 +56,7 @@
 				<Event Id="1532176313" Name="Stop_Cone" ObjectPath="\Events\Default Work Unit\Stop_Cone"/>
 				<Event Id="738066393" Name="Stop_Laser" ObjectPath="\Events\Default Work Unit\Stop_Laser"/>
 				<Event Id="1370337034" Name="Stop_Mortier" ObjectPath="\Events\Default Work Unit\Stop_Mortier"/>
+				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\Default Work Unit\Stop_Music" MaxAttenuation="0.000000"/>
 				<Event Id="287728669" Name="Stop_SFX" ObjectPath="\Events\Default Work Unit\Stop_SFX" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>

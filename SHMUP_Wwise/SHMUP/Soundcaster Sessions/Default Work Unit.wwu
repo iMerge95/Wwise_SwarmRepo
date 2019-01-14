@@ -18,6 +18,10 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Stop_Music" ID="{8B420498-02F8-41A6-87D8-D309BC1D07FE}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Death" ID="{84B6EAC0-6D9E-4894-B9A7-5D5E16C7FE9F}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -97,7 +101,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Phase1" ID="{5D14D911-FA47-465E-A0FA-4F98EDBDD7E7}"/>
+						<CurrentStateRef Name="None" ID="{A56883E3-4C9B-4049-9521-FAFB95248730}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

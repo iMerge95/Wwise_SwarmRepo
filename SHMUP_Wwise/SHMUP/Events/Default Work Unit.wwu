@@ -353,10 +353,29 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Sfx" ID="{0C04D972-343A-4BCB-8CE0-6647669E9436}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music" ID="{8B420498-02F8-41A6-87D8-D309BC1D07FE}">
+					<ChildrenList>
+						<Action Name="" ID="{F41461EF-B00D-4E7F-A045-923D8210D9FA}" ShortID="152888893">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicSwitch" ID="{D3C2499D-2599-482D-8AEC-9836A5E320A5}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
