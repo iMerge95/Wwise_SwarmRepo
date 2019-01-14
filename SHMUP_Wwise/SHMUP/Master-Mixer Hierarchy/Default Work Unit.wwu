@@ -114,6 +114,34 @@
 						</Bus>
 						<Bus Name="Amb" ID="{94EF1D6D-3173-4CBB-8296-75FE2FF28FF0}">
 							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{F1121CB7-98AD-4EC2-B2F2-7FE256B3C4E5}" ShortID="659818402">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="VolumeSfx" ID="{8DA1442B-7FAC-4FD4-8CE2-D79B43F9CE4C}" WorkUnitID="{7691F312-072F-41DF-87E6-0B4141493A89}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{77AA0B44-C730-431D-A029-426246301182}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="UserAuxSendVolume0" Type="Real64">
 									<ValueList>
 										<Value>3</Value>
@@ -202,7 +230,38 @@
 								</Reference>
 							</ReferenceList>
 						</Bus>
-						<Bus Name="UI" ID="{92C51CA8-4F73-4508-82E1-D3EE59D9966A}"/>
+						<Bus Name="UI" ID="{92C51CA8-4F73-4508-82E1-D3EE59D9966A}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{7CEC54B9-F407-4F8F-A7FD-D11A9FEC6A08}" ShortID="314576882">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="VolumeSfx" ID="{8DA1442B-7FAC-4FD4-8CE2-D79B43F9CE4C}" WorkUnitID="{7691F312-072F-41DF-87E6-0B4141493A89}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{327D5D45-D20C-4383-A147-AFC81692EABC}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

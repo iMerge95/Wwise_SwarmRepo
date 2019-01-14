@@ -85,7 +85,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="VolumeMusic" ID="{A8EE8D0E-63A8-49BC-A68B-AC62190A2B61}"/>
-							<Value>97</Value>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="PyuNumber" ID="{40834A75-AE01-4BAD-BD25-F729BFB5FFAE}"/>
@@ -97,7 +97,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Intro" ID="{044557DE-43FD-4643-8496-9BEB19B03EF4}"/>
+						<CurrentStateRef Name="Phase1" ID="{5D14D911-FA47-465E-A0FA-4F98EDBDD7E7}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
