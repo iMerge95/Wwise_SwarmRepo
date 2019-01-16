@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\</ProjectRoot>
+		<SourceFilesRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -47,6 +47,7 @@
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music"/>
 				<Event Id="4153769294" Name="Play_NormalHit" ObjectPath="\Events\Default Work Unit\Play_NormalHit"/>
 				<Event Id="3860455926" Name="Play_PickUp" ObjectPath="\Events\Default Work Unit\Play_PickUp"/>
+				<Event Id="2586684224" Name="Play_Repa" ObjectPath="\Events\Default Work Unit\Play_Repa"/>
 				<Event Id="3061091197" Name="Play_Shots" ObjectPath="\Events\Default Work Unit\Play_Shots"/>
 				<Event Id="1386224142" Name="Play_UI_Back" ObjectPath="\Events\Default Work Unit\Play_UI_Back"/>
 				<Event Id="249738436" Name="Play_UI_Move" ObjectPath="\Events\Default Work Unit\Play_UI_Move"/>
@@ -365,6 +366,10 @@
 					<ShortName>Erosion_Mus_Phase1.wav</ShortName>
 					<Path>SFX\Erosion_Mus_Phase1_B9F22F13.wem</Path>
 				</File>
+				<File Id="790383631" Language="SFX">
+					<ShortName>Boss_Repa_02.wav</ShortName>
+					<Path>SFX\Boss_Repa_02_1F72EA25.wem</Path>
+				</File>
 				<File Id="795158529" Language="SFX">
 					<ShortName>UI_Move_04.wav</ShortName>
 					<Path>SFX\UI_Move_04_1F72EA25.wem</Path>
@@ -408,6 +413,10 @@
 				<File Id="856376613" Language="SFX">
 					<ShortName>Shot_Drop_05.wav</ShortName>
 					<Path>SFX\Shot_Drop_05_1F72EA25.wem</Path>
+				</File>
+				<File Id="861858760" Language="SFX">
+					<ShortName>Boss_Repa_03.wav</ShortName>
+					<Path>SFX\Boss_Repa_03_1F72EA25.wem</Path>
 				</File>
 				<File Id="867776948" Language="SFX">
 					<ShortName>Bullet_01.wav</ShortName>
@@ -460,6 +469,10 @@
 				<File Id="1060065124" Language="SFX">
 					<ShortName>Pizz\Shot_Pizz_08.wav</ShortName>
 					<Path>SFX\Pizz\Shot_Pizz_08_1F72EA25.wem</Path>
+				</File>
+				<File Id="1071969636" Language="SFX">
+					<ShortName>Boss_Repa_01.wav</ShortName>
+					<Path>SFX\Boss_Repa_01_1F72EA25.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

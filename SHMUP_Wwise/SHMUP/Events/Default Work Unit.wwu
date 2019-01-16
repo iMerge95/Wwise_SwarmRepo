@@ -381,6 +381,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Repa" ID="{C623A7D9-7A13-433B-A143-F6151FD1813D}">
+					<ChildrenList>
+						<Action Name="" ID="{ED0DC4B1-3B7D-4317-A384-7117DD09DAE6}" ShortID="337378957">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossRepa" ID="{1ABE6662-93FC-4C07-96E8-9ABA19B4DD14}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
