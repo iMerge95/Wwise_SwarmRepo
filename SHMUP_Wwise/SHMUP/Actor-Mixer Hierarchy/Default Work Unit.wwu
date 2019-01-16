@@ -63,6 +63,12 @@
 												<Value>True</Value>
 											</ValueList>
 										</Property>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -102,6 +108,12 @@
 												<Value>True</Value>
 											</ValueList>
 										</Property>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -139,6 +151,12 @@
 										<Property Name="IsStreamingEnabled" Type="bool">
 											<ValueList>
 												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Pitch" Type="int32">
@@ -197,7 +215,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Sfx" ID="{0C04D972-343A-4BCB-8CE0-6647669E9436}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+							<ObjectRef Name="PyuSFX" ID="{AA19CD8B-536B-45D5-8CF5-DB6FDD6D364A}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -327,7 +345,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-4</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -526,7 +544,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-6</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -1528,7 +1546,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Sfx" ID="{0C04D972-343A-4BCB-8CE0-6647669E9436}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+							<ObjectRef Name="BossSFX" ID="{A86CB250-5C71-4431-B279-A57C91FB0B45}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1584,7 +1602,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-9</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -1961,6 +1979,7 @@
 										<Value>2</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -1973,7 +1992,7 @@
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-4</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -1991,7 +2010,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+									<ObjectRef Name="BossAttack" ID="{74D8E638-4601-48B1-A8BB-8BCEFAAC67B9}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2201,6 +2220,7 @@
 										<Value>1</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -2213,7 +2233,7 @@
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2222,7 +2242,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+									<ObjectRef Name="BossAttack" ID="{74D8E638-4601-48B1-A8BB-8BCEFAAC67B9}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2450,7 +2470,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>-6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2539,13 +2559,14 @@
 										<Value>1</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+									<ObjectRef Name="BossAttack" ID="{74D8E638-4601-48B1-A8BB-8BCEFAAC67B9}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2582,7 +2603,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>-1</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2641,6 +2662,11 @@
 										<Property Name="UserAuxSendVolume0" Type="Real64">
 											<ValueList>
 												<Value>-9</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2724,7 +2750,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>1</Value>
+										<Value>3</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -3063,7 +3089,7 @@
 								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
-										<Value>5</Value>
+										<Value>3</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Pitch" Type="int32">
@@ -3195,7 +3221,6 @@
 						</RandomSequenceContainer>
 						<Sound Name="UI_Back" ID="{DADC13E5-556E-486A-A118-ACDDF6B4E8EF}" ShortID="772072859">
 							<PropertyList>
-								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
 										<Value>1</Value>
@@ -3253,7 +3278,6 @@
 						</Sound>
 						<Sound Name="UI_Start" ID="{6DF81470-8DCF-4856-8722-A13B3DA293E9}" ShortID="545484163">
 							<PropertyList>
-								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
 										<Value>1</Value>
@@ -3285,7 +3309,6 @@
 						</Sound>
 						<Sound Name="UI_Valide" ID="{8AD68995-CD61-4CAE-AB81-81B6B1CC9026}" ShortID="739764259">
 							<PropertyList>
-								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
 										<Value>1</Value>

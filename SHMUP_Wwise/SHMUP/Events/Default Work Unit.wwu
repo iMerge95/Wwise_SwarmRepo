@@ -395,6 +395,42 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Menu" ID="{0CE551DD-D964-4568-B84B-A681EE3BBC09}">
+					<ChildrenList>
+						<Action Name="" ID="{BAF5D75A-7576-402C-97D8-BF44AE75A45E}" ShortID="473500378">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Intro" ID="{044557DE-43FD-4643-8496-9BEB19B03EF4}" WorkUnitID="{E8A23F02-EC58-4FC0-9A82-163A94473BFD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{52C1A266-8EE9-4F39-97D2-FB3935A4ACAB}" ShortID="480951113">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicSwitch" ID="{D3C2499D-2599-482D-8AEC-9836A5E320A5}" WorkUnitID="{ED79A987-FCD9-45AB-AEFE-26A821E28938}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D3C7B84C-035E-4079-B897-603DB673C74E}" ShortID="1018307821">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance" ID="{DB3DE3DE-7139-4277-98AE-3FE085193D53}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

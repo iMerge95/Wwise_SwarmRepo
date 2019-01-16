@@ -93,7 +93,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="PyuNumber" ID="{40834A75-AE01-4BAD-BD25-F729BFB5FFAE}"/>
-							<Value>126</Value>
+							<Value>36</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="VolumeSfx" ID="{8DA1442B-7FAC-4FD4-8CE2-D79B43F9CE4C}"/>
@@ -101,7 +101,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{A56883E3-4C9B-4049-9521-FAFB95248730}"/>
+						<CurrentStateRef Name="Intro" ID="{044557DE-43FD-4643-8496-9BEB19B03EF4}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

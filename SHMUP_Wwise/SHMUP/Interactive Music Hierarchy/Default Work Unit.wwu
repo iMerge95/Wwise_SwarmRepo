@@ -10,9 +10,10 @@
 				<MusicSwitchContainer Name="MusicSwitch" ID="{D3C2499D-2599-482D-8AEC-9836A5E320A5}" ShortID="567431498">
 					<PropertyList>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
-								<Value>2</Value>
+								<Value>1</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -564,7 +565,7 @@
 										<MusicCue Name="Exit Cue" ID="{120C9791-7D9E-478C-AC16-E1EFF056E260}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="64000"/>
+												<Property Name="TimeMs" Type="Real64" Value="66000"/>
 											</PropertyList>
 										</MusicCue>
 										<MusicCue Name="" ID="{251002A7-1815-4BCB-B0A8-229029D53D26}">
@@ -793,7 +794,7 @@
 										<MusicCue Name="Exit Cue" ID="{5F85A502-6991-4829-B354-DDEFF4BB4366}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="64000"/>
+												<Property Name="TimeMs" Type="Real64" Value="66000"/>
 											</PropertyList>
 										</MusicCue>
 										<MusicCue Name="" ID="{2DFBA049-D6D2-48B9-84C1-4221B456904C}">
@@ -845,6 +846,13 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="musicIntro" ID="{7BD237A9-CC60-4870-A7F2-D6F09346CF5C}" ShortID="653230312">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
@@ -857,6 +865,12 @@
 								<MusicSegment Name="Erosion_Mus_Intro" ID="{662F1761-4319-4543-A352-E949D2AA4259}" ShortID="340236115">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="20000"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -996,6 +1010,7 @@
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{838350CF-D146-495D-9059-1E06D63218A0}" ShortID="699230052">
 											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<SegmentRef Name="Erosion_Mus_Intro" ID="{662F1761-4319-4543-A352-E949D2AA4259}"/>

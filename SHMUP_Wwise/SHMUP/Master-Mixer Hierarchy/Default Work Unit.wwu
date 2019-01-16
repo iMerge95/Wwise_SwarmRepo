@@ -47,6 +47,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="Color" Type="int16" Value="21"/>
 								<Property Name="Lowpass" Type="int16">
 									<RTPCList>
 										<RTPC Name="" ID="{65412A3B-763D-422D-8BB3-CDAEE4B9B2E7}" ShortID="336164692">
@@ -62,7 +63,7 @@
 												<PointList>
 													<Point>
 														<XPos>1</XPos>
-														<YPos>85</YPos>
+														<YPos>40</YPos>
 														<Flags>5</Flags>
 														<SegmentShape>Log3</SegmentShape>
 													</Point>
@@ -81,14 +82,10 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="UserAuxSendVolume0" Type="Real64">
 									<ValueList>
 										<Value>-6</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -100,6 +97,46 @@
 									<ObjectRef Name="Rev" ID="{65669E4C-136C-4A57-8D67-F379FD6D3AAD}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Bus Name="BossAttack" ID="{74D8E638-4601-48B1-A8BB-8BCEFAAC67B9}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="6"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<DuckingList>
+										<DuckItem>
+											<BusRef Name="BossSFX" ID="{A86CB250-5C71-4431-B279-A57C91FB0B45}"/>
+											<DuckingParam>
+												<Volume>-6</Volume>
+												<FadeInTime>1</FadeInTime>
+												<FadeOutTime>0.5</FadeOutTime>
+												<FadeCurve>FadeLog1</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+										<DuckItem>
+											<BusRef Name="PyuSFX" ID="{AA19CD8B-536B-45D5-8CF5-DB6FDD6D364A}"/>
+											<DuckingParam>
+												<Volume>-6</Volume>
+												<FadeInTime>1</FadeInTime>
+												<FadeOutTime>0.5</FadeOutTime>
+												<FadeCurve>FadeLog1</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+									</DuckingList>
+								</Bus>
+								<Bus Name="BossSFX" ID="{A86CB250-5C71-4431-B279-A57C91FB0B45}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="19"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="PyuSFX" ID="{AA19CD8B-536B-45D5-8CF5-DB6FDD6D364A}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="16"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
 							<DuckingList>
 								<DuckItem>
 									<BusRef Name="Amb" ID="{94EF1D6D-3173-4CBB-8296-75FE2FF28FF0}"/>
@@ -142,6 +179,8 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="Color" Type="int16" Value="13"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="UserAuxSendVolume0" Type="Real64">
 									<ValueList>
 										<Value>3</Value>
@@ -149,7 +188,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -189,6 +228,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="Color" Type="int16" Value="23"/>
 								<Property Name="Lowpass" Type="int16">
 									<RTPCList>
 										<RTPC Name="" ID="{DDB1C0EE-C78C-48BE-B7E2-00FCC07B4B1E}" ShortID="1040760584">
@@ -204,7 +244,7 @@
 												<PointList>
 													<Point>
 														<XPos>1</XPos>
-														<YPos>85</YPos>
+														<YPos>35</YPos>
 														<Flags>5</Flags>
 														<SegmentShape>Log3</SegmentShape>
 													</Point>
@@ -223,12 +263,24 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 									<ObjectRef Name="MUS_EQ" ID="{F817350F-C070-4D4E-9F8F-FB7AAC28F6E8}" WorkUnitID="{75598BAF-B797-43F9-A5E9-0A4BE1DF3A6B}"/>
 								</Reference>
 							</ReferenceList>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Amb" ID="{94EF1D6D-3173-4CBB-8296-75FE2FF28FF0}"/>
+									<DuckingParam>
+										<Volume>-6</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
 						</Bus>
 						<Bus Name="UI" ID="{92C51CA8-4F73-4508-82E1-D3EE59D9966A}">
 							<PropertyList>
@@ -259,6 +311,13 @@
 											</Curve>
 										</RTPC>
 									</RTPCList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
 								</Property>
 							</PropertyList>
 						</Bus>
