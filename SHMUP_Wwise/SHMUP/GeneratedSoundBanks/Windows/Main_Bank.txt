@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	85760201	Play_BossOpen			\Default Work Unit\Play_BossOpen	
+	222291854	Stop_MortierSeeking			\Default Work Unit\Stop_MortierSeeking	
 	249738436	Play_UI_Move			\Default Work Unit\Play_UI_Move	
 	287728669	Stop_SFX			\Default Work Unit\Stop_SFX	
 	435770000	Stop_Amb			\Default Work Unit\Stop_Amb	

@@ -431,6 +431,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_MortierSeeking" ID="{6694F69B-E22E-41D0-98AB-448FDEA0A853}">
+					<ChildrenList>
+						<Action Name="" ID="{F22529C3-8091-4535-A314-79504B96F463}" ShortID="56194709">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mortier_Loop1" ID="{B22386C4-4AE6-4E9A-9092-A88DD93B8470}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

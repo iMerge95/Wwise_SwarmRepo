@@ -2749,9 +2749,6 @@
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>3</Value>
-									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{0984C6F4-74EC-4659-955B-2A2CB477F490}">

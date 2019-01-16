@@ -10,6 +10,7 @@
 						<ObjectRef Name="Play_BossOpen" ID="{DA803DD8-1274-40DE-AFDE-06EE8272767C}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_HardHit" ID="{10B85B97-37B4-414D-A752-7D39AC77FE5F}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Music" ID="{8B420498-02F8-41A6-87D8-D309BC1D07FE}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_MortierSeeking" ID="{6694F69B-E22E-41D0-98AB-448FDEA0A853}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Mortier" ID="{EC405E55-F0C0-4288-8FD9-80927FFDC28E}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Repa" ID="{C623A7D9-7A13-433B-A143-F6151FD1813D}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Menu" ID="{0CE551DD-D964-4568-B84B-A681EE3BBC09}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
