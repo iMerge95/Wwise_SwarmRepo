@@ -81,6 +81,10 @@
 							<ObjectRef Name="Play_HardHit" ID="{10B85B97-37B4-414D-A752-7D39AC77FE5F}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
 							<Position X="4" Y="2"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Stop_SFX" ID="{74A93BC1-00FF-4855-BC83-47E4CFDE2CA4}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
+							<Position X="4" Y="3"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
