@@ -27,6 +27,7 @@
 						<ObjectRef Name="Play_Amb" ID="{6F5DC5DD-8714-4B14-8366-99945890C16A}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_UI_Start" ID="{B94F884D-D96A-4C06-9007-29B9F63A2966}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Cone" ID="{1EBFFFC9-C1E4-4C27-99BB-9567F5D9FD1A}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Cinematic" ID="{B838D524-A48C-4C67-88B2-9EF5FD047367}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_BossClose" ID="{3CEDAA70-5FFB-4CE1-BC29-28B1F13C225C}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Laser" ID="{82504E42-6266-4D38-8B0C-07E871174264}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_UI_Back" ID="{B40BD463-DA4E-4E86-AB24-D005C41D64E1}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}" Filter="7" Origin="Manual"/>

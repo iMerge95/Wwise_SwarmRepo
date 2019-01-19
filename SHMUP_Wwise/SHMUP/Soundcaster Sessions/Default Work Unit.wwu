@@ -22,6 +22,10 @@
 							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Cinematic" ID="{B838D524-A48C-4C67-88B2-9EF5FD047367}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Death" ID="{84B6EAC0-6D9E-4894-B9A7-5D5E16C7FE9F}" WorkUnitID="{72E1AA3E-2CFD-4518-83CA-1012DDCFF4AD}"/>
 							<Position X="1" Y="0"/>
 						</Module>

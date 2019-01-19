@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\</ProjectRoot>
+		<SourceFilesRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\jeremy.guarober\Documents\WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\SHMUP_WwiseRepo\Wwise_SwarmRepo\SHMUP_Wwise\SHMUP\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -38,6 +38,7 @@
 				<Event Id="798848911" Name="Play_BossClose" ObjectPath="\Events\Default Work Unit\Play_BossClose"/>
 				<Event Id="85760201" Name="Play_BossOpen" ObjectPath="\Events\Default Work Unit\Play_BossOpen"/>
 				<Event Id="1073586825" Name="Play_Bullets" ObjectPath="\Events\Default Work Unit\Play_Bullets"/>
+				<Event Id="2900783425" Name="Play_Cinematic" ObjectPath="\Events\Default Work Unit\Play_Cinematic"/>
 				<Event Id="3726300835" Name="Play_CoeurHit" ObjectPath="\Events\Default Work Unit\Play_CoeurHit"/>
 				<Event Id="3198067375" Name="Play_Cone" ObjectPath="\Events\Default Work Unit\Play_Cone"/>
 				<Event Id="1172822028" Name="Play_Death" ObjectPath="\Events\Default Work Unit\Play_Death"/>
@@ -195,6 +196,10 @@
 				<File Id="302877464" Language="SFX">
 					<ShortName>Gravel\Shot_Gravel_02.wav</ShortName>
 					<Path>SFX\Gravel\Shot_Gravel_02_1F72EA25.wem</Path>
+				</File>
+				<File Id="308792767" Language="SFX">
+					<ShortName>Trailer_V1.wav</ShortName>
+					<Path>SFX\Trailer_V1_1F72EA25.wem</Path>
 				</File>
 				<File Id="315978292" Language="SFX">
 					<ShortName>Erosion_Mus_Intro.wav</ShortName>

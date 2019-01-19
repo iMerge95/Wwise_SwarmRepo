@@ -3355,6 +3355,32 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
+				<Sound Name="Cinematic" ID="{DACD06B9-FCBD-43C5-8C44-35AF57D3F893}" ShortID="698371171">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7B67E191-8F2C-4C76-90AC-13906874755E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1C3680F-893B-45A1-835C-C0A1E0DB27B7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Trailer_V1" ID="{5349FDEF-8512-4930-AFA9-21C643DC1328}" ShortID="308792767">
+							<Language>SFX</Language>
+							<AudioFile>Trailer_V1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Trailer_V1" ID="{5349FDEF-8512-4930-AFA9-21C643DC1328}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

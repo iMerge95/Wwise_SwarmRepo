@@ -445,6 +445,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Cinematic" ID="{B838D524-A48C-4C67-88B2-9EF5FD047367}">
+					<ChildrenList>
+						<Action Name="" ID="{BFE00CA0-47C2-4E39-9036-E4A45C34FC62}" ShortID="754470642">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cinematic" ID="{DACD06B9-FCBD-43C5-8C44-35AF57D3F893}" WorkUnitID="{2B631136-1105-4357-A382-5E1AFD56ED8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
